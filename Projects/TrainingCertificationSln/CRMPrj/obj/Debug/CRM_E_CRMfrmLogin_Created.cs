@@ -26,6 +26,11 @@ public sealed class CRM_E_CRMfrmLogin_Created : OpenSpan.Automation.Automator
 	
 	private OpenSpan.Automation.ConnectableMethod connectableMethod4;
 	
+	[OpenSpan.Design.ComponentIdentityAttribute("Automator-8D8E30F1807D26C\\DiagnosticsLog-8D8E3EB41AC4BB4")]
+	public OpenSpan.Controls.DiagnosticsLog diagnosticsLog1;
+	
+	private OpenSpan.Automation.ConnectableMethod connectableMethod5;
+	
 	public CRM_E_CRMfrmLogin_Created()
 	{
 		// 
@@ -44,12 +49,17 @@ public sealed class CRM_E_CRMfrmLogin_Created : OpenSpan.Automation.Automator
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo2 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
 		OpenSpan.Automation.MemberPrototype memberprototype5 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.Automation.ParameterPrototype parameterprototype1 = new OpenSpan.Automation.ParameterPrototype();
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo3 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.Automation.MemberPrototype memberprototype6 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.ParameterPrototype parameterprototype2 = new OpenSpan.Automation.ParameterPrototype();
 		this.connectableEvent1 = new OpenSpan.Automation.ConnectableEvent();
 		this.connectableMethod2 = new OpenSpan.Automation.ConnectableMethod();
 		this.connectableMethod3 = new OpenSpan.Automation.ConnectableMethod();
 		this.connectableMethod1 = new OpenSpan.Automation.ConnectableMethod();
 		this.messageDialog1 = new OpenSpan.Controls.MessageDialog();
 		this.connectableMethod4 = new OpenSpan.Automation.ConnectableMethod();
+		this.diagnosticsLog1 = new OpenSpan.Controls.DiagnosticsLog();
+		this.connectableMethod5 = new OpenSpan.Automation.ConnectableMethod();
 		// 
 		// Initialize design component
 		// 
@@ -67,6 +77,8 @@ public sealed class CRM_E_CRMfrmLogin_Created : OpenSpan.Automation.Automator
 		this.SetId(this.connectableMethod1, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E31199B54194"));
 		this.SetId(this.messageDialog1, new OpenSpan.Design.ComponentIdentity("MessageDialog-8D8E31AB9AC907D"));
 		this.SetId(this.connectableMethod4, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E31ABC10C37E"));
+		this.SetId(this.diagnosticsLog1, new OpenSpan.Design.ComponentIdentity("DiagnosticsLog-8D8E3EB41AC4BB4"));
+		this.SetId(this.connectableMethod5, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E3EB41B51E8E"));
 		// 
 		// CRM_E_CRMfrmLogin_Created
 		// 
@@ -181,9 +193,43 @@ public sealed class CRM_E_CRMfrmLogin_Created : OpenSpan.Automation.Automator
 		this.connectableMethod4.ParamsLength = 0;
 		this.connectableMethod4.SerializedParamsDefaultValues = "";
 		// 
+		// diagnosticsLog1
+		// 
+		this.SetScope(this.diagnosticsLog1, OpenSpan.Design.ConnectableScope.Local);
+		// 
+		// connectableMethod5
+		// 
+		this.connectableMethod5.DisplayName = "<Log>";
+		dynamicpropertyinfo3.IsSerializable = true;
+		dynamicpropertyinfo3.NoInputConvesion = false;
+		dynamicpropertyinfo3.Source = "";
+		dynamicpropertyinfo3.ValidateConnectionCallback = null;
+		dynamicpropertyinfo3.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo3.CodeDomData = _resources_.GetString("_CRM_E_CRMfrmLogin_Created_4_");
+		this.connectableMethod5.DynamicMembers.Add(dynamicpropertyinfo3);
+		this.connectableMethod5.ExceptionsHandled = false;
+		this.connectableMethod5.InstanceTypeName = "OpenSpan.Controls.DiagnosticsLog";
+		this.connectableMethod5.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E30F1807D26C\\DiagnosticsLog-8D8E3EB41AC4BB4");
+		memberprototype6.DefaultValue = null;
+		memberprototype6.MemberName = "Log";
+		memberprototype6.MemberType = System.Reflection.MemberTypes.Method;
+		parameterprototype2.CanRead = false;
+		parameterprototype2.CanWrite = true;
+		parameterprototype2.DefaultSet = true;
+		parameterprototype2.DefaultValue = "First Name Last Name";
+		parameterprototype2.ParamName = "message";
+		parameterprototype2.Position = 0;
+		parameterprototype2.TypeName = "System.String";
+		memberprototype6.Signature.ParameterPrototype.Add(parameterprototype2);
+		memberprototype6.Signature.ReturnType = "System.String";
+		memberprototype6.TypeName = "System.String";
+		this.connectableMethod5.MemberPrototypes.Add(memberprototype6);
+		this.connectableMethod5.ParamsLength = 0;
+		this.connectableMethod5.SerializedParamsDefaultValues = "";
+		// 
 		// Initialize CodeDom data
 		// 
-		this.CodeDomData = _resources_.GetString("_CRM_E_CRMfrmLogin_Created_4_");
+		this.CodeDomData = _resources_.GetString("_CRM_E_CRMfrmLogin_Created_5_");
 		// 
 		// Add components
 		// 
@@ -194,6 +240,8 @@ public sealed class CRM_E_CRMfrmLogin_Created : OpenSpan.Automation.Automator
 		this.Components.Add(this.connectableMethod1);
 		this.Components.Add(this.messageDialog1);
 		this.Components.Add(this.connectableMethod4);
+		this.Components.Add(this.diagnosticsLog1);
+		this.Components.Add(this.connectableMethod5);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -380,6 +428,60 @@ public sealed class CRM_E_CRMfrmLogin_Created : OpenSpan.Automation.Automator
 		// Result
 		// 
 		return connectableMethod4;
+	}
+	
+	internal OpenSpan.Controls.DiagnosticsLog Create_diagnosticsLog1(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Controls.DiagnosticsLog diagnosticsLog1 = new OpenSpan.Controls.DiagnosticsLog();
+		this.SetId(diagnosticsLog1, new OpenSpan.Design.ComponentIdentity("DiagnosticsLog-8D8E3EB41AC4BB4"));
+		this.SetScope(diagnosticsLog1, OpenSpan.Design.ConnectableScope.Local);
+		// 
+		// Result
+		// 
+		return diagnosticsLog1;
+	}
+	
+	internal OpenSpan.Automation.ConnectableMethod Create_connectableMethod5(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(CRM_E_CRMfrmLogin_Created));
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Automation.ConnectableMethod connectableMethod5 = new OpenSpan.Automation.ConnectableMethod();
+		this.SetId(connectableMethod5, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E3EB41B51E8E"));
+		connectableMethod5.DisplayName = "<Log>";
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		dynamicpropertyinfo1.IsSerializable = true;
+		dynamicpropertyinfo1.NoInputConvesion = false;
+		dynamicpropertyinfo1.Source = "";
+		dynamicpropertyinfo1.ValidateConnectionCallback = null;
+		dynamicpropertyinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo1.CodeDomData = _resources_.GetString("_CRM_E_CRMfrmLogin_Created_4_");
+		connectableMethod5.DynamicMembers.Add(dynamicpropertyinfo1);
+		connectableMethod5.ExceptionsHandled = false;
+		connectableMethod5.InstanceTypeName = "OpenSpan.Controls.DiagnosticsLog";
+		connectableMethod5.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E30F1807D26C\\DiagnosticsLog-8D8E3EB41AC4BB4");
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "Log";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Method;
+		OpenSpan.Automation.ParameterPrototype parameterprototype1 = new OpenSpan.Automation.ParameterPrototype();
+		parameterprototype1.CanRead = false;
+		parameterprototype1.CanWrite = true;
+		parameterprototype1.DefaultSet = true;
+		parameterprototype1.DefaultValue = "First Name Last Name";
+		parameterprototype1.ParamName = "message";
+		parameterprototype1.Position = 0;
+		parameterprototype1.TypeName = "System.String";
+		memberprototype1.Signature.ParameterPrototype.Add(parameterprototype1);
+		memberprototype1.Signature.ReturnType = "System.String";
+		memberprototype1.TypeName = "System.String";
+		connectableMethod5.MemberPrototypes.Add(memberprototype1);
+		connectableMethod5.ParamsLength = 0;
+		connectableMethod5.SerializedParamsDefaultValues = "";
+		// 
+		// Result
+		// 
+		return connectableMethod5;
 	}
 }
 
