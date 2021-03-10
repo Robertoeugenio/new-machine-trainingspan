@@ -61,7 +61,7 @@
             <XrayGuid Value="" />
             <Content Name="Controls">
               <Items>
-                <OpenSpan.Adapters.Web.WebBase.Controls.Form Name="Insira_um_nome_de_usuário_de_pelo_m" Id="Form-8D8E248A5D9BB34">
+                <OpenSpan.Adapters.Web.WebBase.Controls.Form Name="ACMEfrmCredentials" Id="Form-8D8E248A5D9BB34">
                   <DummyPropertyToDetectReplaceUndo Value="0" />
                   <ForwardObjectExplorerEvent Value="True" />
                   <MatchingIndex Value="0" />
@@ -118,7 +118,7 @@
                           </Items>
                         </Content>
                       </OpenSpan.Adapters.Web.WebBase.Controls.TextBox>
-                      <OpenSpan.Adapters.Web.WebBase.Controls.Button Name="ACMEfrmCredentials" Id="Button-8D8E248BC54D22E">
+                      <OpenSpan.Adapters.Web.WebBase.Controls.Button Name="ACMEbtnSignln" Id="Button-8D8E248BC54D22E">
                         <DummyPropertyToDetectReplaceUndo Value="0" />
                         <ElementId Value="login_button" />
                         <ForwardObjectExplorerEvent Value="True" />
@@ -294,7 +294,7 @@
               </Items>
             </Content>
           </OpenSpan.Adapters.Web.WebBase.Controls.WebPage>
-          <OpenSpan.Adapters.Web.WebBase.Controls.WebPage Name="Stores__Pega_Studio_Training_Web_Ap" Id="WebPage-8D8E24C0B7C5F03">
+          <OpenSpan.Adapters.Web.WebBase.Controls.WebPage Name=" ACMEwpStores" Id="WebPage-8D8E3CEB0EF24B7">
             <DummyPropertyToDetectReplaceUndo Value="0" />
             <ForwardObjectExplorerEvent Value="True" />
             <IsGlobal Value="True" />
@@ -304,7 +304,7 @@
             <XrayGuid Value="" />
             <Content Name="Controls">
               <Items>
-                <OpenSpan.Adapters.Web.WebBase.Controls.Form Name="ACMEfrmSearch" Id="Form-8D8E24C0B459DF0">
+                <OpenSpan.Adapters.Web.WebBase.Controls.Form Name="ACMEfrmSearch" Id="Form-8D8E3CEB0E6C74E">
                   <DummyPropertyToDetectReplaceUndo Value="0" />
                   <ElementId Value="form1" />
                   <ForwardObjectExplorerEvent Value="True" />
@@ -316,7 +316,7 @@
                   <XrayGuid Value="" />
                   <Content Name="Controls">
                     <Items>
-                      <OpenSpan.Adapters.Web.WebBase.Controls.TextBox Name="ACMEtxtZip" Id="TextBox-8D8E24C0B255AEC">
+                      <OpenSpan.Adapters.Web.WebBase.Controls.TextBox Name="ACMEtxtZip" Id="TextBox-8D8E3D07E69A078">
                         <DummyPropertyToDetectReplaceUndo Value="0" />
                         <ElementId Value="txtZip" />
                         <ForwardObjectExplorerEvent Value="True" />
@@ -328,60 +328,18 @@
                         <XrayGuid Value="" />
                         <Content Name="MatchRules">
                           <Items>
-                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule20" Id="VirtualPropertyMatchRule-8D8E24C0BDF49E7">
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule20" Id="VirtualPropertyMatchRule-8D8E3D07E774BE1">
                               <PropertyName Value="type" />
                               <Text Value="Simple|True|(User Culture)|text" />
                             </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
-                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule21" Id="VirtualPropertyMatchRule-8D8E24C0C058081">
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule21" Id="VirtualPropertyMatchRule-8D8E3D07E7D4711">
                               <PropertyName Value="id" />
                               <Text Value="Simple|True|(User Culture)|txtZip" />
                             </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
                           </Items>
                         </Content>
                       </OpenSpan.Adapters.Web.WebBase.Controls.TextBox>
-                      <OpenSpan.Adapters.Web.WebBase.Controls.TextBox Name="txtCity" Id="TextBox-8D8E24C15C965F7">
-                        <DummyPropertyToDetectReplaceUndo Value="0" />
-                        <ElementId Value="txtCity" />
-                        <ForwardObjectExplorerEvent Value="True" />
-                        <MatchingIndex Value="1" />
-                        <PegaId Value="0" />
-                        <TagName Value="INPUT" />
-                        <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlInputTextElementTarget, OpenSpan.Adapters.Web.WebBase" />
-                        <UseElementId Value="True" />
-                        <XrayGuid Value="" />
-                        <Content Name="MatchRules">
-                          <Items>
-                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule22" Id="VirtualPropertyMatchRule-8D8E24C15F907FD">
-                              <PropertyName Value="type" />
-                              <Text Value="Simple|True|(User Culture)|text" />
-                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
-                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule23" Id="VirtualPropertyMatchRule-8D8E24C160BE6D0">
-                              <PropertyName Value="id" />
-                              <Text Value="Simple|True|(User Culture)|txtCity" />
-                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
-                          </Items>
-                        </Content>
-                      </OpenSpan.Adapters.Web.WebBase.Controls.TextBox>
-                      <OpenSpan.Adapters.Web.WebBase.Controls.Select Name="Select_a_StateAlabamaAlaskaArizonaA" Id="Select-8D8E24C18AD63F3">
-                        <DummyPropertyToDetectReplaceUndo Value="0" />
-                        <ElementId Value="ddlStates" />
-                        <ForwardObjectExplorerEvent Value="True" />
-                        <MatchingIndex Value="0" />
-                        <PegaId Value="0" />
-                        <TagName Value="SELECT" />
-                        <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlSelectComboBoxElementTarget, OpenSpan.Adapters.Web.WebBase" />
-                        <UseElementId Value="True" />
-                        <XrayGuid Value="" />
-                        <Content Name="MatchRules">
-                          <Items>
-                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule24" Id="VirtualPropertyMatchRule-8D8E24C1A125F41">
-                              <PropertyName Value="id" />
-                              <Text Value="Simple|True|(User Culture)|ddlStates" />
-                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
-                          </Items>
-                        </Content>
-                      </OpenSpan.Adapters.Web.WebBase.Controls.Select>
-                      <OpenSpan.Adapters.Web.WebBase.Controls.Button Name="ACMEbtnFindStore" Id="Button-8D8E24C240C87F1">
+                      <OpenSpan.Adapters.Web.WebBase.Controls.Button Name="ACMEbtnFindStore" Id="Button-8D8E3D0DE2C4472">
                         <DummyPropertyToDetectReplaceUndo Value="0" />
                         <ElementId Value="submit_find" />
                         <ForwardObjectExplorerEvent Value="True" />
@@ -393,11 +351,11 @@
                         <XrayGuid Value="" />
                         <Content Name="MatchRules">
                           <Items>
-                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule25" Id="VirtualPropertyMatchRule-8D8E24C2434457F">
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule22" Id="VirtualPropertyMatchRule-8D8E3D0DE361600">
                               <PropertyName Value="type" />
                               <Text Value="Simple|True|(User Culture)|submit" />
                             </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
-                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule26" Id="VirtualPropertyMatchRule-8D8E24C244DFD72">
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule23" Id="VirtualPropertyMatchRule-8D8E3D0DE3C6118">
                               <PropertyName Value="id" />
                               <Text Value="Simple|True|(User Culture)|submit_find" />
                             </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
@@ -408,7 +366,7 @@
                   </Content>
                   <Content Name="MatchRules">
                     <Items>
-                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule19" Id="VirtualPropertyMatchRule-8D8E24C0BBEDFD1">
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule19" Id="VirtualPropertyMatchRule-8D8E3CEB10EAAC4">
                         <PropertyName Value="id" />
                         <Text Value="Simple|True|(User Culture)|form1" />
                       </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
@@ -419,18 +377,18 @@
             </Content>
             <Content Name="MatchRules">
               <Items>
-                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule17" Id="VirtualPropertyMatchRule-8D8E24C0B90C36B">
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule17" Id="VirtualPropertyMatchRule-8D8E3CEB0FA1AF5">
                   <PropertyName Value="url" />
                   <Text Value="Simple|True|(User Culture)|http://training.openspan.com/store_locator" />
                 </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
-                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule18" Id="VirtualPropertyMatchRule-8D8E24C0B99BDF8">
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule18" Id="VirtualPropertyMatchRule-8D8E3CEB0FEA04D">
                   <PropertyName Value="title" />
                   <Text Value="Simple|True|(User Culture)|Stores | Pega Studio Training Web Application" />
                 </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
               </Items>
             </Content>
           </OpenSpan.Adapters.Web.WebBase.Controls.WebPage>
-          <OpenSpan.Adapters.Web.WebBase.Controls.WebPage Name=" ACMEwpResults" Id="WebPage-8D8E24D393F76F9">
+          <OpenSpan.Adapters.Web.WebBase.Controls.WebPage Name="ACMEwpResults" Id="WebPage-8D8E3D181105664">
             <DummyPropertyToDetectReplaceUndo Value="0" />
             <ForwardObjectExplorerEvent Value="True" />
             <IsGlobal Value="True" />
@@ -440,7 +398,7 @@
             <XrayGuid Value="" />
             <Content Name="Controls">
               <Items>
-                <OpenSpan.Adapters.Web.WebBase.Controls.Form Name=" ACMEfrmStoreAdd" Id="Form-8D8E24D392D824D">
+                <OpenSpan.Adapters.Web.WebBase.Controls.Form Name="ACMEfrmStoreAdd" Id="Form-8D8E3D408904449">
                   <DummyPropertyToDetectReplaceUndo Value="0" />
                   <ElementId Value="form1" />
                   <ForwardObjectExplorerEvent Value="True" />
@@ -452,7 +410,7 @@
                   <XrayGuid Value="" />
                   <Content Name="Controls">
                     <Items>
-                      <OpenSpan.Adapters.Web.WebBase.Controls.Table Name=" ACMEtblNearestStore" Id="Table-8D8E24D39212E3D">
+                      <OpenSpan.Adapters.Web.WebBase.Controls.Table Name="ACMEtblNearestStore" Id="Table-8D8E3D4088BB13B">
                         <DummyPropertyToDetectReplaceUndo Value="0" />
                         <ElementId Value="search_locator_result_table" />
                         <ForwardObjectExplorerEvent Value="True" />
@@ -464,7 +422,7 @@
                         <XrayGuid Value="" />
                         <Content Name="MatchRules">
                           <Items>
-                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule30" Id="VirtualPropertyMatchRule-8D8E24D399F08CB">
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule37" Id="VirtualPropertyMatchRule-8D8E3D408AD029C">
                               <PropertyName Value="id" />
                               <Text Value="Simple|True|(User Culture)|search_locator_result_table" />
                             </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
@@ -475,7 +433,7 @@
                   </Content>
                   <Content Name="MatchRules">
                     <Items>
-                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule29" Id="VirtualPropertyMatchRule-8D8E24D3983F234">
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule26" Id="VirtualPropertyMatchRule-8D8E3D408A01484">
                         <PropertyName Value="id" />
                         <Text Value="Simple|True|(User Culture)|form1" />
                       </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
@@ -486,18 +444,18 @@
             </Content>
             <Content Name="MatchRules">
               <Items>
-                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule27" Id="VirtualPropertyMatchRule-8D8E24D3959F1B0">
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule24" Id="VirtualPropertyMatchRule-8D8E3D1811AEEB4">
                   <PropertyName Value="url" />
                   <Text Value="Simple|True|(User Culture)|http://training.openspan.com/store/locator_result" />
                 </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
-                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule28" Id="VirtualPropertyMatchRule-8D8E24D3963D5FA">
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule25" Id="VirtualPropertyMatchRule-8D8E3D1811F7655">
                   <PropertyName Value="title" />
-                  <Text Value="Simple|True|(User Culture)|Localizador de lojas | Aplicativo da Web de treinamento Pega Studio" />
+                  <Text Value="Simple|True|(User Culture)|Store Locator | Pega Studio Training Web Application" />
                 </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
               </Items>
             </Content>
           </OpenSpan.Adapters.Web.WebBase.Controls.WebPage>
-          <OpenSpan.Adapters.Web.WebBase.Controls.WebPage Name="Home__Pega_Studio_Training_Web_Appl" Id="WebPage-8D8E24F5DBB32E3">
+          <OpenSpan.Adapters.Web.WebBase.Controls.WebPage Name="Home__Pega_Studio_Training_Web_Appl" Id="WebPage-8D8E3D771F66B1F">
             <DummyPropertyToDetectReplaceUndo Value="0" />
             <ForwardObjectExplorerEvent Value="True" />
             <IsGlobal Value="True" />
@@ -507,7 +465,7 @@
             <XrayGuid Value="" />
             <Content Name="Controls">
               <Items>
-                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="ACMEInkHome" Id="Link-8D8E24F5D7DA762">
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="ACMEInkHome" Id="Link-8D8E3D771EE19F9">
                   <DummyPropertyToDetectReplaceUndo Value="0" />
                   <ForwardObjectExplorerEvent Value="True" />
                   <MatchingIndex Value="8" />
@@ -518,11 +476,11 @@
                   <XrayGuid Value="" />
                   <Content Name="MatchRules">
                     <Items>
-                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule33" Id="VirtualPropertyMatchRule-8D8E24F5E0C01CF">
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule29" Id="VirtualPropertyMatchRule-8D8E3D7721691AF">
                         <PropertyName Value="innerText" />
                         <Text Value="Simple|True|(User Culture)|Home" />
                       </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
-                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule34" Id="VirtualPropertyMatchRule-8D8E24FAD16C494">
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule30" Id="VirtualPropertyMatchRule-8D8E3D7A9712D48">
                         <PropertyName Value="classname" />
                         <Text Value="Simple|True|(User Culture)|menu_option" />
                       </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
@@ -533,13 +491,82 @@
             </Content>
             <Content Name="MatchRules">
               <Items>
-                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule31" Id="VirtualPropertyMatchRule-8D8E24F5DCB7B65">
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule27" Id="VirtualPropertyMatchRule-8D8E3D771FF0C37">
                   <PropertyName Value="url" />
                   <Text Value="Simple|True|(User Culture)|http://training.openspan.com/home" />
                 </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
-                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule32" Id="VirtualPropertyMatchRule-8D8E24F5DD49CE6">
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule28" Id="VirtualPropertyMatchRule-8D8E3D772031BFE">
                   <PropertyName Value="title" />
                   <Text Value="Simple|True|(User Culture)|Home | Pega Studio Training Web Application" />
+                </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+              </Items>
+            </Content>
+          </OpenSpan.Adapters.Web.WebBase.Controls.WebPage>
+          <OpenSpan.Adapters.Web.WebBase.Controls.WebPage Name="Sign_In__Pega_Studio_Training_Web_A" Id="WebPage-8D8E3D8221A8913">
+            <DummyPropertyToDetectReplaceUndo Value="0" />
+            <ForwardObjectExplorerEvent Value="True" />
+            <IsGlobal Value="True" />
+            <MatchingIndex Value="0" />
+            <PegaId Value="0" />
+            <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlDocumentTarget, OpenSpan.Adapters.Web.WebBase" />
+            <XrayGuid Value="" />
+            <Content Name="Controls">
+              <Items>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Form Name="Please_enter_a_user_name_of_at_leas" Id="Form-8D8E3D822103916">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <MatchingIndex Value="0" />
+                  <PegaId Value="0" />
+                  <TagName Value="FORM" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlFormElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="Controls">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.Controls.HiddenField Name="pegasystem_version" Id="HiddenField-8D8E3D8220CB19A">
+                        <DummyPropertyToDetectReplaceUndo Value="0" />
+                        <ForwardObjectExplorerEvent Value="True" />
+                        <MatchingIndex Value="3" />
+                        <PegaId Value="0" />
+                        <TagName Value="INPUT" />
+                        <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlInputHiddenElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                        <UseElementId Value="False" />
+                        <XrayGuid Value="" />
+                        <Content Name="MatchRules">
+                          <Items>
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule34" Id="VirtualPropertyMatchRule-8D8E3D82243FA01">
+                              <PropertyName Value="type" />
+                              <Text Value="Simple|True|(User Culture)|hidden" />
+                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule38" Id="VirtualPropertyMatchRule-8D8E3D8224A54EA">
+                              <PropertyName Value="name" />
+                              <Text Value="Simple|True|(User Culture)|pegasystem_version" />
+                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                          </Items>
+                        </Content>
+                      </OpenSpan.Adapters.Web.WebBase.Controls.HiddenField>
+                    </Items>
+                  </Content>
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule33" Id="VirtualPropertyMatchRule-8D8E3D8223AAD32">
+                        <PropertyName Value="action" />
+                        <Text Value="Simple|True|(User Culture)|http://training.openspan.com/home" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Form>
+              </Items>
+            </Content>
+            <Content Name="MatchRules">
+              <Items>
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule31" Id="VirtualPropertyMatchRule-8D8E3D8222843F0">
+                  <PropertyName Value="url" />
+                  <Text Value="Simple|True|(User Culture)|http://training.openspan.com/login" />
+                </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="virtualPropertyMatchRule32" Id="VirtualPropertyMatchRule-8D8E3D8222BD21A">
+                  <PropertyName Value="title" />
+                  <Text Value="Simple|True|(User Culture)|Sign In | Pega Studio Training Web Application" />
                 </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
               </Items>
             </Content>

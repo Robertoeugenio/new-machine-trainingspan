@@ -47,7 +47,7 @@
     </BuildReferences>
   </ComponentInfo>
   <Component Version="1.0">
-    <OpenSpan.Adapters.Windows.WindowsAdapter Name="CRM" Id="WindowsAdapter-8D8DFE68142AF1E">
+    <OpenSpan.Adapters.Windows.WindowsAdapter Name="txttxtZip" Id="WindowsAdapter-8D8DFE68142AF1E">
       <Path Value="C:\Program Files (x86)\Openspan\CRM Setup\CRM.exe" />
       <WorkingDirectory Value="C:\Program Files (x86)\Openspan\CRM Setup" />
       <Content Name="Controls">
@@ -87,7 +87,7 @@
               </Items>
             </Content>
           </OpenSpan.Adapters.ActiveX.ActiveXFactory>
-          <OpenSpan.Adapters.Controls.Form Name="frmLogin" Id="Form-8D8DFF16A0ECEEE">
+          <OpenSpan.Adapters.Controls.Form Name="CRMfrmLogin" Id="Form-8D8DFF16A0ECEEE">
             <DummyPropertyToDetectReplaceUndo Value="0" />
             <ForwardObjectExplorerEvent Value="True" />
             <MatchingIndex Value="2" />
@@ -96,7 +96,7 @@
             <XrayGuid Value="" />
             <Content Name="Controls">
               <Items>
-                <OpenSpan.Adapters.Controls.Button Name="btnLogin" Id="Button-8D8DFF16A0C389F">
+                <OpenSpan.Adapters.Controls.Button Name="CRMbtnLogin" Id="Button-8D8DFF16A0C389F">
                   <DummyPropertyToDetectReplaceUndo Value="0" />
                   <ExtensibleTypeName Value="System.Windows.Forms.Button, System.Windows.Forms" />
                   <ForwardObjectExplorerEvent Value="True" />
@@ -308,7 +308,7 @@
                                       </Items>
                                     </Content>
                                   </OpenSpan.Adapters.Controls.TextBox>
-                                  <OpenSpan.Adapters.Controls.TextBox Name="CRMtxtZip" Id="TextBox-8D8DFF86B6D21D8">
+                                  <OpenSpan.Adapters.Controls.TextBox Name="CRMtxtStreetAdd" Id="TextBox-8D8DFF86B6D21D8">
                                     <DummyPropertyToDetectReplaceUndo Value="0" />
                                     <ExtensibleTypeName Value="System.Windows.Forms.TextBox, System.Windows.Forms" />
                                     <ForwardObjectExplorerEvent Value="True" />
@@ -356,7 +356,7 @@
                                       </Items>
                                     </Content>
                                   </OpenSpan.Adapters.Controls.TextBox>
-                                  <OpenSpan.Adapters.Controls.TextBox Name="txtZip" Id="TextBox-8D8DFF88A9F666C">
+                                  <OpenSpan.Adapters.Controls.TextBox Name="CRMtxtZip" Id="TextBox-8D8E3BB748A756B">
                                     <DummyPropertyToDetectReplaceUndo Value="0" />
                                     <ExtensibleTypeName Value="System.Windows.Forms.TextBox, System.Windows.Forms" />
                                     <ForwardObjectExplorerEvent Value="True" />
@@ -366,7 +366,7 @@
                                     <XrayGuid Value="" />
                                     <Content Name="MatchRules">
                                       <Items>
-                                        <OpenSpan.Adapters.Virtual.VirtualMatchRules.VirtualControlNativeControlNameMatchRule Name="virtualControlNativeControlNameMa17" Id="VirtualControlNativeControlNameMatchRule-8D8DFF88AAACF7C">
+                                        <OpenSpan.Adapters.Virtual.VirtualMatchRules.VirtualControlNativeControlNameMatchRule Name="virtualControlNativeControlNameMa17" Id="VirtualControlNativeControlNameMatchRule-8D8E3BB749210C3">
                                           <NativeControlName Value="Simple|True|(User Culture)|txtZip" />
                                         </OpenSpan.Adapters.Virtual.VirtualMatchRules.VirtualControlNativeControlNameMatchRule>
                                       </Items>
@@ -402,6 +402,22 @@
                     </Items>
                   </Content>
                 </OpenSpan.Adapters.Controls.MdiClient>
+                <OpenSpan.Adapters.Controls.MenuItem Name="mnuOrders_Console" Id="MenuItem-8D8E3BBB64582C3">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <FullPath Value="" />
+                  <MatchingIndex Value="8" />
+                  <PegaId Value="0" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Windows.Targets.MenuItem, OpenSpan.Adapters.Windows" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Windows.MatchRules.MenuItemPathMatchRule Name="menuItemPathMatchRule1" Id="MenuItemPathMatchRule-8D8E3BBB64A6B4C">
+                        <Path Value="Tools/Orders Console" />
+                      </OpenSpan.Adapters.Windows.MatchRules.MenuItemPathMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Controls.MenuItem>
               </Items>
             </Content>
             <Content Name="MatchRules">
