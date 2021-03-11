@@ -204,7 +204,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />
-    <Folder Include="CRM_E_CRMfrmLogin_Created" />
+    <Folder Include="ACME_P_NavToHome" />
     <Folder Include="Properties\" />
     <Folder Include="Public Automations" />
   </ItemGroup>
@@ -221,7 +221,7 @@
       <SubType>Component</SubType>
       <Id>WindowsAdapter-8D8DFE68142AF1E</Id>
     </Compile>
-    <Compile Include="CRM_E_CRMfrmLogin_Created\CRM_E_CRMfrmLogin_Created.os">
+    <Compile Include="ACME_P_NavToHome\CRM_E_CRMfrmLogin_Created.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E30F1807D26C</Id>
     </Compile>

@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="ACMESearchPrj" fileName="ACMESearchPrj.dll" assemblyName="ACMESearchPrj.dll" id="Project-8D8DDA64745E957" version="19.1.75.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="20D90E44B66DF0D6459F0A248A5B6321FC7027">
+    <Assemblies>
+      <Assembly value="ACMESearchPrj.dll" digest="912B8662980CBCE6EED0C820FD5CA968AA733E" />
+      <Assembly value="ACMESearchPrj.pdb" digest="1EAB766FC84E18FAC9358E9AD01C127D5FB888" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>

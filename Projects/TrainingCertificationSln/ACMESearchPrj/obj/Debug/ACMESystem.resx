@@ -117,19 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="_CRM_E_CRMfrmLogin_Created_1_" xml:space="preserve">
-    <value>OSVSXqwMAAL2TTWvDMAyG/0roOTjJ1qwNJIUuozB22FhLe3ZsBcxsKfiD4X+/9rCO0LLtsAxdhOxXj2xJdUtmIAT0j9jTqt7FAZI91wGa2fMAuB04snXwZLhXdHbJzpJsVa+dA9Pp+I1idO8VerCAAtyl1jhBVqsuTfZg3VHZzFl+sjRpg/bBQoMQvOU6TV5Cp5V4grijN8CmWyx4Kcq7orqdQ76srta2jc6DmTY7OyiU9O7YhqxxU7E+f/krf1Gx4neAvpRdVYAU+Y1cihJ+aKPkgz8y/oF0HpjpWS2ht6T/7lXZtfl+iMiNEpdHJ8VGaRhH7oPSchzKxrv5AQ==</value>
+  <data name="_ACMESystem_1_" xml:space="preserve">
+    <value>OSVSXsgcAAL2VW0/CMBSA/8rCMykgoJIACeAlxhgvKDx33Zme2LVLL+r+vR33Oex4ULIsadrvfOecrs36E5mkUoAwNyKWw/5zlkIwo9zCoHafgpimVJBRRFMDSpM5hORF4IcbU74duekVUgsaw/5Ia0hCnnk9BfIJYlAgGOhydKKZVBzDejBzoSjFoEOa+VMPJpYbq2AgwBpFeT14sCFHdgvZs3wHMQjPzmiXdU9bvXYHmue9vdVNM20g+S/7uvetv9UjrcMSxN0o7LUgYs2T6Jx14bDNPV4mMkNlbK47WsbCATxyXveOqYZjZkURyc+/+6KNffftIhM0QVZeyiOukENxZmyRR7vxObJu4QJi6gpb1n1FmZEqm0gR46tV1LgOyFfCa2vxOkq6xnXeOAosLW525at9QnSmPcBpZy/wAK+UXHMZUj7iXDLqqlrYIl6uZT/szL/CUyat8ftWiNcCzCo0WYVoQ3ldb1RBdAeJ2/0KX4H0OlFIUSFbIj7Li0GOBkH7TTuYzza/fPJ7FoDXsLxgZKzcpak4FD/ZCu+jBQuVxhW142qULlij+Iv+Bg==</value>
   </data>
-  <data name="_CRM_E_CRMfrmLogin_Created_2_" xml:space="preserve">
-    <value>OSVSXxAAAAFWOQQrCQAxFrzLkAHoB60LEpUpbcJ3ORAymnTKZEcbTGysiLv/P+49szinOlHJ1oU44su/rTA18W3BWWm5Ji2RwHqeWMDTQp0JLvCTOBhxQ1Iq8rLuqmcbVLkYhnMChMOrxT6S3WCR0lNiOz5/gwcoDC+fawJ6uaPDJDBpL8kaBGyT6+/vJjw/cevsC</value>
+  <data name="_ACMESystem_2_" xml:space="preserve">
+    <value>OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlInputTextElementTarget, OpenSpan.Adapters.Web.WebBase</value>
   </data>
-  <data name="_CRM_E_CRMfrmLogin_Created_3_" xml:space="preserve">
-    <value>OSVSX1wAAAFWOQQ6CMBBFr9L0AHgBcUVYqgES1kM76sTSkk6rqad3xBDj8r+8eZn9OYYFYyrKFg8zmaEsWOuNaiVQdoecXdLKgO8QbK2HmHGdY6QkQguOBaT1ui+ccK5G8jY8uWpDnLlqCFy4biFwBHz8a/MtZGd7jCLS69d8ENNEjlKpdYMXEPnkRQ85GrG0mlww98/f355Wu8Mb</value>
+  <data name="_ACMESystem_3_" xml:space="preserve">
+    <value>OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlInputPasswordElementTarget, OpenSpan.Adapters.Web.WebBase</value>
   </data>
-  <data name="_CRM_E_CRMfrmLogin_Created_4_" xml:space="preserve">
-    <value>OSVSXwwAAAFWOQQ7CMAwEvxL5AfAByglxBNRW4uymBizSpHIcpPB6TBFCHHc8u/LmJGkm0erGGnFi39eZGvhScAYtt5RLUHAeY0s4NtBLoSWehdWEPYZsQJd2V7PStOpUOF7BYWDMh7+dfEsljB0J2/H56z8488CBtTawowuafIympyLeLHBDSP7+/vGzB269fQE=</value>
+  <data name="_ACMESystem_4_" xml:space="preserve">
+    <value>OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlInputSubmitElementTarget, OpenSpan.Adapters.Web.WebBase</value>
   </data>
-  <data name="_CRM_E_CRMfrmLogin_Created_5_" xml:space="preserve">
-    <value>OSVSXdxsAAN1ZXW+jOBR9X2n/A8pzZ4MNJESiI4WQrCK1M1Wbmb7Mi0Pc1FOws7bpTPfXrwkJNU346JSgzr5E4fpwufa5x/divHEiWYwkYTRgYRJjKj/++YdheJ9QjI2vKErwea9n9DPjDfk3NzqmaZ4Z6W8+/Hn5HYdSbC/U5YRRqq6Vaz9i4cPOrAYCIjYRetIfobCSs8hHAv814RhJvNq71X2hZYS/UPJPguer/a27GTD+wQ3cqWXOgGsOAziYfNNumj6qmWUAYM7G0Ldsyyk84QpxOQ/2TkFh7ALfyf2IbRaGFmyT3wPNFzFHEdoInEe64AkuIG5JFE1/4jCRuBQzp0IiGuLCal1f3vH4gq0JLWA/P2LOyWqF6Xwl8gGvf5yJVxF0i4icMZ5x0yo1l1jes9WOGzDzJ9YMOLMKbqxSbiz318mZoUi0xs5S0i8C82IWzYiUhK5FblG2ayySSBp5NHkc41AmKFrgn/K8l4EKvvoHzk5J/hXmd4zHk4iED6fjHlqOO3SgH1Rwb5dy7wzeM/e/PTlgNPIdG4zsCnJgKTkQvh9yOt02b+7Zj9ORMvYnwJxYw2kFKW55JStXDLQ7IyXGQqA1DgiK2Pr/smGqHDsZ61PfBr4Dpm4V68Aspf2l4HTa3c5oXxG0pkxIEoqLl7y/hhivr3ed3gWhD3kDGuCQCIXeNn/piJEt0nlv2DNuMBVEksfnWY3FEw3vOaMsEblRBedjtb/ibJLKW9oPK+v4TmKuG7W85SzOH6W6FfVXBXCJ4yXm6Ro8J+g+wsLKabzPV+01UQuWx6Q28SvGZRZLwG4Zf8gsi6eNsmTOWghEq+jZ7Ccs3jCqFuPN/vTkVsxeMUJlYaPYWozHXXMAnDMDFLP7AAObYOx2MBZsiLFHlRjHqccMDjFe/2DRvP6BXPYjBekMupMO1NM0TZ0Ip+8ez4m6jbQNwTw3N63k6fFmSROg1ZEAtZ2gnYkd3VkaCNByrNpEtQZNMKN2MMN64VhuQ+HoWimvOaP3WXN2zzx90XE7ynmtKW4l54832Y2LzsipLzp1GLsdzLagNMBAAKswttMUM6jUl50WrzrM4BDzhuIFQHciBHq+XyMi0iPNVmpXyWHmr2Z7/dmopuL0xaILGetvOW3IuOStqYGMwbC+LAG3IQbCaky6ZTTBWGY1Bh5iaktXUSmwQ6WYHTV6HSWVJhfYVaPXSQfbQC3QtWuzE44aYmqUABuoZYupUSaEr230sr+7Mwe11Ol3s/1JhXeTLP/maHOfGbz+kU9s/wE=</value>
+  <data name="_ACMESystem_5_" xml:space="preserve">
+    <value>OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlInputHiddenElementTarget, OpenSpan.Adapters.Web.WebBase</value>
+  </data>
+  <data name="_ACMESystem_6_" xml:space="preserve">
+    <value>OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlFormElementTarget, OpenSpan.Adapters.Web.WebBase</value>
+  </data>
+  <data name="_ACMESystem_7_" xml:space="preserve">
+    <value>OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlDocumentTarget, OpenSpan.Adapters.Web.WebBase</value>
+  </data>
+  <data name="_ACMESystem_8_" xml:space="preserve">
+    <value>OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase</value>
+  </data>
+  <data name="_ACMESystem_9_" xml:space="preserve">
+    <value>OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlElementTarget, OpenSpan.Adapters.Web.WebBase</value>
+  </data>
+  <data name="_ACMESystem_10_" xml:space="preserve">
+    <value>OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlTableElementTarget, OpenSpan.Adapters.Web.WebBase</value>
   </data>
 </root>

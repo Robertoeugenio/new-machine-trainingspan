@@ -5,6 +5,7 @@
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters.Web.Universal, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters.Web.WebBase, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
@@ -190,6 +191,17 @@
             <InstanceName Value="Jump To" />
             <OverriddenIds />
           </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Control.Click" />
+            <ConnectableUniqueId Value="Automator-8D8E3237CB3C098\ConnectableEvent-8D8E46C93C34244" />
+            <PartID Value="42" />
+            <Left Value="60" />
+            <Top Value="240" />
+            <Collapsed Value="True" />
+            <WillExecute Value="True" />
+            <InstanceName Value="btnTest" />
+            <OverriddenIds />
+          </ConnectionBlock>
         </Objects>
         <Links>
           <Link PartID="11" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -246,6 +258,8 @@
             <LinkPoints>
               <Point value="342, 180" />
               <Point value="352, 180" />
+              <Point value="348, 180" />
+              <Point value="348, 180" />
               <Point value="356, 180" />
               <Point value="356, 157" />
               <Point value="373, 157" />
@@ -258,6 +272,8 @@
             <LinkPoints>
               <Point value="342, 195" />
               <Point value="352, 195" />
+              <Point value="348, 195" />
+              <Point value="348, 195" />
               <Point value="356, 195" />
               <Point value="356, 229" />
               <Point value="455, 229" />
@@ -270,8 +286,8 @@
             <LinkPoints>
               <Point value="594, 260" />
               <Point value="604, 260" />
-              <Point value="608, 260" />
-              <Point value="608, 217" />
+              <Point value="604, 260" />
+              <Point value="604, 217" />
               <Point value="633, 217" />
               <Point value="643, 217" />
             </LinkPoints>
@@ -282,8 +298,8 @@
             <LinkPoints>
               <Point value="594, 275" />
               <Point value="604, 275" />
-              <Point value="608, 275" />
-              <Point value="608, 289" />
+              <Point value="604, 275" />
+              <Point value="604, 289" />
               <Point value="635, 289" />
               <Point value="645, 289" />
             </LinkPoints>
@@ -294,8 +310,10 @@
             <LinkPoints>
               <Point value="774, 289" />
               <Point value="784, 289" />
-              <Point value="784, 289" />
-              <Point value="784, 277" />
+              <Point value="780, 289" />
+              <Point value="780, 289" />
+              <Point value="788, 289" />
+              <Point value="788, 277" />
               <Point value="793, 277" />
               <Point value="803, 277" />
             </LinkPoints>
@@ -318,8 +336,10 @@
             <LinkPoints>
               <Point value="365, 380" />
               <Point value="375, 380" />
-              <Point value="395, 380" />
-              <Point value="395, 349" />
+              <Point value="372, 380" />
+              <Point value="372, 380" />
+              <Point value="380, 380" />
+              <Point value="380, 349" />
               <Point value="415, 349" />
               <Point value="425, 349" />
             </LinkPoints>
@@ -358,8 +378,8 @@
             <LinkPoints>
               <Point value="571, 400" />
               <Point value="581, 400" />
-              <Point value="608, 400" />
-              <Point value="608, 426" />
+              <Point value="588, 400" />
+              <Point value="588, 426" />
               <Point value="635, 426" />
               <Point value="645, 426" />
             </LinkPoints>
@@ -380,12 +400,24 @@
               <Point value="363, 477" />
             </LinkPoints>
           </DecisionEventLink>
+          <Link PartID="43" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="42" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E3237CB3C098\ConnectableEvent-8D8E46C93C34244" MemberComponentId="Automator-8D8E3237CB3C098\EMPTY" />
+            <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E3237CB3C098\ConnectableProperties-8D8E39D66B7901B" MemberComponentId="Automator-8D8E3237CB3C098\ConnectableProperties-8D8E39D66B7901B" />
+            <LinkPoints>
+              <Point value="154, 269" />
+              <Point value="164, 269" />
+              <Point value="180, 269" />
+              <Point value="180, 149" />
+              <Point value="195, 149" />
+              <Point value="205, 149" />
+            </LinkPoints>
+          </Link>
         </Links>
         <Comments />
         <SubGraphs />
       </AutomationDocument>
       <DocumentPosition Value="Binary">
-        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAACgQQAAgEEL</Binary>
+        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAoEIL</Binary>
       </DocumentPosition>
       <Content Name="DynamicMembers">
         <Items>
@@ -782,5 +814,22 @@
         </Items>
       </Content>
     </OpenSpan.Automation.JumpHost>
+    <OpenSpan.Automation.ConnectableEvent Name="connectableEvent1" Id="ConnectableEvent-8D8E46C93C34244">
+      <ComponentName Value="btnTest" />
+      <DisplayName Value="Control.Click" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="System.Windows.Forms.Button" />
+      <InstanceUniqueId Value="DesignForm-8D8E46A4FF4EC54\Button-8D8E46AABF1A888" />
+      <MemberDetails Value=".Click Event" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Click" />
+            <MemberType Value="Event" />
+            <TypeName Value="System.EventHandler" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableEvent>
   </Component>
 </OpenSpanDesignDocument>

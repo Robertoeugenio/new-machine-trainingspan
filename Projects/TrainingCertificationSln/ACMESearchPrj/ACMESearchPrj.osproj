@@ -198,7 +198,14 @@
       <SubType>Component</SubType>
       <Id>UniversalWebAdapter-8D8DE50B28552EF</Id>
     </Compile>
+    <Compile Include="Extensions\ACMEwpSignIn1.cs" />
     <Compile Include="Extensions\WebPage1.cs" />
+    <Compile Include="Extensions\WebPage2.cs" />
+    <Compile Include="Extensions\WebPage3.cs" />
+    <Compile Include="frmTest.os">
+      <SubType>Component</SubType>
+      <Id>DesignForm-8D8E46A4FF4EC54</Id>
+    </Compile>
     <Compile Include="Procedures\ACME_P_NavToHome.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E3237CB3C098</Id>
