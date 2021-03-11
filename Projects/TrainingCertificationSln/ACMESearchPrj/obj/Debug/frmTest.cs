@@ -59,7 +59,7 @@ public sealed class frmTest : OpenSpan.Design.DesignForm
 		// 
 		// btnTest
 		// 
-		this.btnTest.Location = new System.Drawing.Point(67, 101);
+		this.btnTest.Location = new System.Drawing.Point(67, 84);
 		this.btnTest.Name = "btnTest";
 		this.btnTest.TabIndex = 2;
 		this.btnTest.Text = "Test";
@@ -67,14 +67,14 @@ public sealed class frmTest : OpenSpan.Design.DesignForm
 		// 
 		// txtZipCode
 		// 
-		this.txtZipCode.Location = new System.Drawing.Point(67, 143);
+		this.txtZipCode.Location = new System.Drawing.Point(56, 113);
 		this.txtZipCode.Name = "txtZipCode";
 		this.txtZipCode.TabIndex = 1;
 		// 
 		// lblZipCode
 		// 
 		this.lblZipCode.AutoSize = true;
-		this.lblZipCode.Location = new System.Drawing.Point(83, 42);
+		this.lblZipCode.Location = new System.Drawing.Point(79, 59);
 		this.lblZipCode.Name = "lblZipCode";
 		this.lblZipCode.Size = new System.Drawing.Size(50, 13);
 		this.lblZipCode.TabIndex = 0;
@@ -130,7 +130,7 @@ public sealed class frmTest : OpenSpan.Design.DesignForm
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.Button btnTest = new System.Windows.Forms.Button();
 		this.SetId(btnTest, new OpenSpan.Design.ComponentIdentity("Button-8D8E46AABF1A888"));
-		btnTest.Location = new System.Drawing.Point(67, 101);
+		btnTest.Location = new System.Drawing.Point(67, 84);
 		btnTest.Name = "btnTest";
 		btnTest.TabIndex = 2;
 		btnTest.Text = "Test";
@@ -146,7 +146,7 @@ public sealed class frmTest : OpenSpan.Design.DesignForm
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.TextBox txtZipCode = new System.Windows.Forms.TextBox();
 		this.SetId(txtZipCode, new OpenSpan.Design.ComponentIdentity("TextBox-8D8E46AA72F104E"));
-		txtZipCode.Location = new System.Drawing.Point(67, 143);
+		txtZipCode.Location = new System.Drawing.Point(56, 113);
 		txtZipCode.Name = "txtZipCode";
 		txtZipCode.TabIndex = 1;
 		// 
@@ -161,7 +161,7 @@ public sealed class frmTest : OpenSpan.Design.DesignForm
 		System.Windows.Forms.Label lblZipCode = new System.Windows.Forms.Label();
 		this.SetId(lblZipCode, new OpenSpan.Design.ComponentIdentity("Label-8D8E46AA1F850B5"));
 		lblZipCode.AutoSize = true;
-		lblZipCode.Location = new System.Drawing.Point(83, 42);
+		lblZipCode.Location = new System.Drawing.Point(79, 59);
 		lblZipCode.Name = "lblZipCode";
 		lblZipCode.Size = new System.Drawing.Size(50, 13);
 		lblZipCode.TabIndex = 0;
