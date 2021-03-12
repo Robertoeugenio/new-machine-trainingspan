@@ -32,4 +32,3 @@ C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\P
 C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\ACMESearchPrj.pdb
 C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.pdb
-C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESystem.screenshots.resources

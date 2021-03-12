@@ -1,8 +1,14 @@
 using ACMESearchPrj_ACMESystem = ACMESearchPrj.ACMESystem;
 
+using ACMESearchPrj_btnTestClicked = ACMESearchPrj.btnTestClicked;
+
 using ACMESearchPrj_frmTest = ACMESearchPrj.frmTest;
 
+using ACMESearchPrj_ACME_P_GetNearestStore = ACMESearchPrj.ACME_P_GetNearestStore;
+
 using ACMESearchPrj_ACME_P_NavToHome = ACMESearchPrj.ACME_P_NavToHome;
+
+using ACMESearchPrj_ACME_P_SearchByZip = ACMESearchPrj.ACME_P_SearchByZip;
 
 using ACMESearchPrj_ACME_P_SignIn = ACMESearchPrj.ACME_P_SignIn;
 
@@ -125,6 +131,15 @@ public sealed class ACMESearchPrj : OpenSpan.Runtime.RuntimeProject
 		}
 	}
 	
+	// Automator-8D8E5756E4A97C8
+	public ACMESearchPrj_btnTestClicked btnTestClicked
+	{
+		get
+		{
+			return ((ACMESearchPrj_btnTestClicked)(this["btnTestClicked"]));
+		}
+	}
+	
 	// DesignForm-8D8E46A4FF4EC54
 	public ACMESearchPrj_frmTest frmTest
 	{
@@ -134,12 +149,30 @@ public sealed class ACMESearchPrj : OpenSpan.Runtime.RuntimeProject
 		}
 	}
 	
+	// Automator-8D8E5714D065B0C
+	public ACMESearchPrj_ACME_P_GetNearestStore ACME_P_GetNearestStore
+	{
+		get
+		{
+			return ((ACMESearchPrj_ACME_P_GetNearestStore)(this["ACME_P_GetNearestStore"]));
+		}
+	}
+	
 	// Automator-8D8E561DC276930
 	public ACMESearchPrj_ACME_P_NavToHome ACME_P_NavToHome
 	{
 		get
 		{
 			return ((ACMESearchPrj_ACME_P_NavToHome)(this["ACME_P_NavToHome"]));
+		}
+	}
+	
+	// Automator-8D8E56A1BE3B9AC
+	public ACMESearchPrj_ACME_P_SearchByZip ACME_P_SearchByZip
+	{
+		get
+		{
+			return ((ACMESearchPrj_ACME_P_SearchByZip)(this["ACME_P_SearchByZip"]));
 		}
 	}
 	

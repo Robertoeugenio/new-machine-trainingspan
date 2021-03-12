@@ -99,6 +99,10 @@
       <Private>False</Private>
       <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
     </Reference>
+    <Reference Include="OpenSpan.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenSpan.ExpressTranslators, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.ExpressTranslators.dll</HintPath>
       <Private>False</Private>
@@ -185,6 +189,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />
+    <Folder Include="Events" />
     <Folder Include="Procedures" />
     <Folder Include="Properties\" />
     <Folder Include="Public Automations" />
@@ -197,6 +202,10 @@
     <Compile Include="ACMESystem.os">
       <SubType>Component</SubType>
       <Id>UniversalWebAdapter-8D8DE50B28552EF</Id>
+    </Compile>
+    <Compile Include="Events\btnTestClicked.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E5756E4A97C8</Id>
     </Compile>
     <Compile Include="Extensions\ACMEwpSignIn1.cs" />
     <Compile Include="Extensions\WebPage1.cs" />

@@ -22,8 +22,11 @@ namespace ACMESearchPrj.Project
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
 			base.DesignComponentTypes.Add("ACMESearchPrj.ACMESystem");
+			base.DesignComponentTypes.Add("ACMESearchPrj.btnTestClicked");
 			base.DesignComponentTypes.Add("ACMESearchPrj.frmTest");
+			base.DesignComponentTypes.Add("ACMESearchPrj.ACME_P_GetNearestStore");
 			base.DesignComponentTypes.Add("ACMESearchPrj.ACME_P_NavToHome");
+			base.DesignComponentTypes.Add("ACMESearchPrj.ACME_P_SearchByZip");
 			base.DesignComponentTypes.Add("ACMESearchPrj.ACME_P_SignIn");
 		}
 	}
