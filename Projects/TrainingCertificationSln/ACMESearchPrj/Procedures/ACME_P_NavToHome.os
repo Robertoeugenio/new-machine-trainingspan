@@ -191,17 +191,6 @@
             <InstanceName Value="Jump To" />
             <OverriddenIds />
           </ConnectionBlock>
-          <ConnectionBlock>
-            <DisplayName Value="Control.Click" />
-            <ConnectableUniqueId Value="Automator-8D8E561DC276930\ConnectableEvent-8D8E567DCD6EAD6" />
-            <PartID Value="37" />
-            <Left Value="20" />
-            <Top Value="280" />
-            <Collapsed Value="True" />
-            <WillExecute Value="True" />
-            <InstanceName Value="btnTest" />
-            <OverriddenIds />
-          </ConnectionBlock>
         </Objects>
         <Links>
           <Link PartID="9" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -398,18 +387,6 @@
               <Point value="428, 497" />
               <Point value="493, 497" />
               <Point value="503, 497" />
-            </LinkPoints>
-          </Link>
-          <Link PartID="38" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="37" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E561DC276930\ConnectableEvent-8D8E567DCD6EAD6" MemberComponentId="Automator-8D8E561DC276930\EMPTY" />
-            <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E561DC276930\ConnectableProperties-8D8E561F9D98711" MemberComponentId="Automator-8D8E561DC276930\ConnectableProperties-8D8E561F9D98711" />
-            <LinkPoints>
-              <Point value="115, 325" />
-              <Point value="125, 325" />
-              <Point value="140, 325" />
-              <Point value="140, 225" />
-              <Point value="155, 225" />
-              <Point value="165, 225" />
             </LinkPoints>
           </Link>
         </Links>
@@ -816,22 +793,5 @@
         </Items>
       </Content>
     </OpenSpan.Automation.JumpHost>
-    <OpenSpan.Automation.ConnectableEvent Name="connectableEvent1" Id="ConnectableEvent-8D8E567DCD6EAD6">
-      <ComponentName Value="btnTest" />
-      <DisplayName Value="Control.Click" />
-      <ExceptionsHandled Value="False" />
-      <InstanceTypeName Value="System.Windows.Forms.Button" />
-      <InstanceUniqueId Value="DesignForm-8D8E46A4FF4EC54\Button-8D8E46AABF1A888" />
-      <MemberDetails Value=".Click Event" />
-      <Content Name="MemberPrototypes">
-        <Items>
-          <OpenSpan.Automation.MemberPrototype>
-            <MemberName Value="Click" />
-            <MemberType Value="Event" />
-            <TypeName Value="System.EventHandler" />
-          </OpenSpan.Automation.MemberPrototype>
-        </Items>
-      </Content>
-    </OpenSpan.Automation.ConnectableEvent>
   </Component>
 </OpenSpanDesignDocument>

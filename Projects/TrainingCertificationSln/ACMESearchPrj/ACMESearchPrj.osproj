@@ -204,9 +204,17 @@
       <SubType>Component</SubType>
       <Id>DesignForm-8D8E46A4FF4EC54</Id>
     </Compile>
+    <Compile Include="Procedures\ACME_P_GetNearestStore.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E5714D065B0C</Id>
+    </Compile>
     <Compile Include="Procedures\ACME_P_NavToHome.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E561DC276930</Id>
+    </Compile>
+    <Compile Include="Procedures\ACME_P_SearchByZip.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E56A1BE3B9AC</Id>
     </Compile>
     <Compile Include="Procedures\ACME_P_SignIn.os">
       <SubType>Component</SubType>

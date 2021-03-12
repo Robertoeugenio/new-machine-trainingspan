@@ -38,6 +38,8 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 	
 	private OpenSpan.Automation.ConnectableMethod connectableMethod2;
 	
+	private OpenSpan.Automation.ConnectableMethod connectableMethod3;
+	
 	public ACME_P_SignIn()
 	{
 		// 
@@ -69,6 +71,8 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		OpenSpan.Automation.ParameterPrototype parameterprototype2 = new OpenSpan.Automation.ParameterPrototype();
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo8 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
 		OpenSpan.Automation.MemberPrototype memberprototype8 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.MemberPrototype memberprototype9 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.ParameterPrototype parameterprototype3 = new OpenSpan.Automation.ParameterPrototype();
 		this.entryPoint1 = new OpenSpan.Automation.EntryPoint();
 		this.labelHost1 = new OpenSpan.Automation.LabelHost();
 		this.labelHost2 = new OpenSpan.Automation.LabelHost();
@@ -82,6 +86,7 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		this.jumpHost2 = new OpenSpan.Automation.JumpHost();
 		this.jumpHost3 = new OpenSpan.Automation.JumpHost();
 		this.connectableMethod2 = new OpenSpan.Automation.ConnectableMethod();
+		this.connectableMethod3 = new OpenSpan.Automation.ConnectableMethod();
 		// 
 		// Initialize design component
 		// 
@@ -106,6 +111,7 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		this.SetId(this.jumpHost2, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E55C7C0E4DC3"));
 		this.SetId(this.jumpHost3, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E55C921362E7"));
 		this.SetId(this.connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E55CE5C7AF9F"));
+		this.SetId(this.connectableMethod3, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E5698F57ABF3"));
 		// 
 		// ACME_P_SignIn
 		// 
@@ -365,6 +371,30 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		this.connectableMethod2.ParamsLength = 0;
 		this.connectableMethod2.SerializedParamsDefaultValues = "";
 		// 
+		// connectableMethod3
+		// 
+		this.connectableMethod3.DisplayName = "<RaiseEvent>";
+		this.connectableMethod3.ExceptionsHandled = false;
+		this.connectableMethod3.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.TextBox";
+		this.connectableMethod3.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\TextBox-8D8E248B7E2F760");
+		memberprototype9.DefaultValue = null;
+		memberprototype9.MemberName = "RaiseEvent";
+		memberprototype9.MemberType = System.Reflection.MemberTypes.Method;
+		parameterprototype3.CanRead = false;
+		parameterprototype3.CanWrite = true;
+		parameterprototype3.DefaultSet = true;
+		parameterprototype3.DefaultValue = "keyup";
+		parameterprototype3.ParamName = "evt";
+		parameterprototype3.Position = 0;
+		parameterprototype3.TypeAssemblyName = "OpenSpan.Adapters.Web.WebBase";
+		parameterprototype3.TypeName = "OpenSpan.Adapters.Web.WebBase.HtmlEvent";
+		memberprototype9.Signature.ParameterPrototype.Add(parameterprototype3);
+		memberprototype9.Signature.ReturnType = "System.Void";
+		memberprototype9.TypeName = "System.Void";
+		this.connectableMethod3.MemberPrototypes.Add(memberprototype9);
+		this.connectableMethod3.ParamsLength = 0;
+		this.connectableMethod3.SerializedParamsDefaultValues = "";
+		// 
 		// Initialize CodeDom data
 		// 
 		this.CodeDomData = _resources_.GetString("_ACME_P_SignIn_11_");
@@ -385,6 +415,7 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		this.Components.Add(this.jumpHost2);
 		this.Components.Add(this.jumpHost3);
 		this.Components.Add(this.connectableMethod2);
+		this.Components.Add(this.connectableMethod3);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -871,6 +902,40 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		// Result
 		// 
 		return connectableMethod2;
+	}
+	
+	internal OpenSpan.Automation.ConnectableMethod Create_connectableMethod3(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Automation.ConnectableMethod connectableMethod3 = new OpenSpan.Automation.ConnectableMethod();
+		this.SetId(connectableMethod3, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E5698F57ABF3"));
+		connectableMethod3.DisplayName = "<RaiseEvent>";
+		connectableMethod3.ExceptionsHandled = false;
+		connectableMethod3.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.TextBox";
+		connectableMethod3.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\TextBox-8D8E248B7E2F760");
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "RaiseEvent";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Method;
+		OpenSpan.Automation.ParameterPrototype parameterprototype1 = new OpenSpan.Automation.ParameterPrototype();
+		parameterprototype1.CanRead = false;
+		parameterprototype1.CanWrite = true;
+		parameterprototype1.DefaultSet = true;
+		parameterprototype1.DefaultValue = "keyup";
+		parameterprototype1.ParamName = "evt";
+		parameterprototype1.Position = 0;
+		parameterprototype1.TypeAssemblyName = "OpenSpan.Adapters.Web.WebBase";
+		parameterprototype1.TypeName = "OpenSpan.Adapters.Web.WebBase.HtmlEvent";
+		memberprototype1.Signature.ParameterPrototype.Add(parameterprototype1);
+		memberprototype1.Signature.ReturnType = "System.Void";
+		memberprototype1.TypeName = "System.Void";
+		connectableMethod3.MemberPrototypes.Add(memberprototype1);
+		connectableMethod3.ParamsLength = 0;
+		connectableMethod3.SerializedParamsDefaultValues = "";
+		// 
+		// Result
+		// 
+		return connectableMethod3;
 	}
 }
 
