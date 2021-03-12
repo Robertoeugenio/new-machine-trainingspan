@@ -200,15 +200,17 @@
     </Compile>
     <Compile Include="Extensions\ACMEwpSignIn1.cs" />
     <Compile Include="Extensions\WebPage1.cs" />
-    <Compile Include="Extensions\WebPage2.cs" />
-    <Compile Include="Extensions\WebPage3.cs" />
     <Compile Include="frmTest.os">
       <SubType>Component</SubType>
       <Id>DesignForm-8D8E46A4FF4EC54</Id>
     </Compile>
     <Compile Include="Procedures\ACME_P_NavToHome.os">
       <SubType>Component</SubType>
-      <Id>Automator-8D8E4B5B5A66C35</Id>
+      <Id>Automator-8D8E561DC276930</Id>
+    </Compile>
+    <Compile Include="Procedures\ACME_P_SignIn.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E55BD1146088</Id>
     </Compile>
   </ItemGroup>
   <ItemGroup>

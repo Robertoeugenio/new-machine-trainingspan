@@ -28,5 +28,7 @@
       </BuildReferences>
     </DesignComponent>
     <DesignComponent id="DesignForm-8D8E46A4FF4EC54" className="frmTest" type="WinForm" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D8E55BD1146088" className="ACME_P_SignIn" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D8E561DC276930" className="ACME_P_NavToHome" type="Automation" isPublic="True" screenShots="" />
   </DesignComponents>
 </Cache>

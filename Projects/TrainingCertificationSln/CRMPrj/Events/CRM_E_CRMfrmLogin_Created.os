@@ -101,6 +101,8 @@
             <LinkPoints>
               <Point value="515, 196" />
               <Point value="525, 196" />
+              <Point value="524, 196" />
+              <Point value="524, 196" />
               <Point value="532, 196" />
               <Point value="532, 165" />
               <Point value="555, 165" />
@@ -125,6 +127,8 @@
             <LinkPoints>
               <Point value="515, 211" />
               <Point value="525, 211" />
+              <Point value="524, 211" />
+              <Point value="524, 211" />
               <Point value="532, 211" />
               <Point value="532, 228" />
               <Point value="452, 228" />
@@ -165,6 +169,9 @@
         <Comments />
         <SubGraphs />
       </AutomationDocument>
+      <DocumentPosition Value="Binary">
+        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAL0grkEL</Binary>
+      </DocumentPosition>
       <DocumentScale Value="0.7350919" />
       <ShowDesignCompNames Value="True" />
     </OpenSpan.Automation.Automator>
@@ -355,5 +362,9 @@
         </Items>
       </Content>
     </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Controls.MessageDialog Name="messageDialog2" Id="MessageDialog-8D8E52B72208536">
+      <Caption Value="Information" />
+      <Scope Value="Local" Extended="True" />
+    </OpenSpan.Controls.MessageDialog>
   </Component>
 </OpenSpanDesignDocument>

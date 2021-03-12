@@ -5,6 +5,7 @@
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters.ActiveX, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
@@ -47,7 +48,8 @@
     </BuildReferences>
   </ComponentInfo>
   <Component Version="1.0">
-    <OpenSpan.Adapters.Windows.WindowsAdapter Name="txttxtZip" Id="WindowsAdapter-8D8DFE68142AF1E">
+    <OpenSpan.Adapters.Windows.WindowsAdapter Name="CRM" Id="WindowsAdapter-8D8DFE68142AF1E">
+      <FriendlyName Value="CRM" />
       <Path Value="C:\Program Files (x86)\Openspan\CRM Setup\CRM.exe" />
       <WorkingDirectory Value="C:\Program Files (x86)\Openspan\CRM Setup" />
       <Content Name="Controls">
