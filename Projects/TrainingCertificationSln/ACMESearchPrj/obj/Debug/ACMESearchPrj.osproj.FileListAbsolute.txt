@@ -67,3 +67,4 @@ C:\Users\Roberto\Documents\PegaVersão\new-machine-trainingspan-master\Projects\
 C:\Users\Roberto\Documents\PegaVersão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESystem.screenshots.resx
 C:\Users\Roberto\Documents\PegaVersão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.dll
 C:\Users\Roberto\Documents\PegaVersão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.pdb
+C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.osprojResolveAssemblyReference.cache
