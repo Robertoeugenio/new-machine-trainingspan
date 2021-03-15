@@ -16,8 +16,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 	[OpenSpan.Design.ComponentIdentityAttribute("Automator-8D8E561DC276930\\EntryPoint-8D8E561E11B9E30")]
 	public OpenSpan.Automation.EntryPoint entryPoint1;
 	
-	private OpenSpan.Automation.ConnectableProperties connectableProperties1;
-	
 	private OpenSpan.Automation.LabelHost labelHost1;
 	
 	private OpenSpan.Automation.LabelHost labelHost2;
@@ -31,8 +29,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 	private OpenSpan.Automation.ConnectableProperties connectableProperties2;
 	
 	private OpenSpan.Automation.ConnectableMethod connectableMethod1;
-	
-	private OpenSpan.Automation.ConnectableMethod connectableMethod2;
 	
 	private OpenSpan.Automation.LabelHost labelHost3;
 	
@@ -48,6 +44,10 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 	
 	private OpenSpan.Automation.JumpHost jumpHost6;
 	
+	private OpenSpan.Automation.ConnectableMethod connectableMethod2;
+	
+	private OpenSpan.Automation.ConnectableProperties connectableProperties1;
+	
 	public ACME_P_NavToHome()
 	{
 		// 
@@ -61,7 +61,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo1 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo2 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
-		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo2 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo3 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo3 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
@@ -69,23 +68,23 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo5 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo6 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo7 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.Automation.MemberPrototype memberprototype2 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.Automation.MemberPrototype memberprototype3 = new OpenSpan.Automation.MemberPrototype();
-		OpenSpan.Automation.MemberPrototype memberprototype4 = new OpenSpan.Automation.MemberPrototype();
-		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo8 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
-		OpenSpan.Automation.MemberPrototype memberprototype5 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo4 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.Automation.MemberPrototype memberprototype4 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.MemberPrototype memberprototype5 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.Automation.MemberPrototype memberprototype6 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.ParameterPrototype parameterprototype1 = new OpenSpan.Automation.ParameterPrototype();
 		OpenSpan.Automation.MemberPrototype memberprototype7 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.Automation.MemberPrototype memberprototype8 = new OpenSpan.Automation.MemberPrototype();
-		OpenSpan.Automation.ParameterPrototype parameterprototype1 = new OpenSpan.Automation.ParameterPrototype();
-		OpenSpan.Automation.MemberPrototype memberprototype9 = new OpenSpan.Automation.MemberPrototype();
-		OpenSpan.Automation.MemberPrototype memberprototype10 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.Automation.ParameterPrototype parameterprototype2 = new OpenSpan.Automation.ParameterPrototype();
-		OpenSpan.Automation.MemberPrototype memberprototype11 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.MemberPrototype memberprototype9 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.Automation.ParameterPrototype parameterprototype3 = new OpenSpan.Automation.ParameterPrototype();
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo8 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.Automation.MemberPrototype memberprototype10 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.MemberPrototype memberprototype11 = new OpenSpan.Automation.MemberPrototype();
 		this.entryPoint1 = new OpenSpan.Automation.EntryPoint();
-		this.connectableProperties1 = new OpenSpan.Automation.ConnectableProperties();
 		this.labelHost1 = new OpenSpan.Automation.LabelHost();
 		this.labelHost2 = new OpenSpan.Automation.LabelHost();
 		this.exitPoint1 = new OpenSpan.Automation.ExitPoint();
@@ -93,7 +92,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.jumpHost1 = new OpenSpan.Automation.JumpHost();
 		this.connectableProperties2 = new OpenSpan.Automation.ConnectableProperties();
 		this.connectableMethod1 = new OpenSpan.Automation.ConnectableMethod();
-		this.connectableMethod2 = new OpenSpan.Automation.ConnectableMethod();
 		this.labelHost3 = new OpenSpan.Automation.LabelHost();
 		this.jumpHost2 = new OpenSpan.Automation.JumpHost();
 		this.jumpHost3 = new OpenSpan.Automation.JumpHost();
@@ -101,6 +99,8 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.jumpHost4 = new OpenSpan.Automation.JumpHost();
 		this.jumpHost5 = new OpenSpan.Automation.JumpHost();
 		this.jumpHost6 = new OpenSpan.Automation.JumpHost();
+		this.connectableMethod2 = new OpenSpan.Automation.ConnectableMethod();
+		this.connectableProperties1 = new OpenSpan.Automation.ConnectableProperties();
 		// 
 		// Initialize design component
 		// 
@@ -113,7 +113,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		// Set component Ids
 		// 
 		this.SetId(this.entryPoint1, new OpenSpan.Design.ComponentIdentity("EntryPoint-8D8E561E11B9E30"));
-		this.SetId(this.connectableProperties1, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8E561F9D98711"));
 		this.SetId(this.labelHost1, new OpenSpan.Design.ComponentIdentity("LabelHost-8D8E561FF56E369"));
 		this.SetId(this.labelHost2, new OpenSpan.Design.ComponentIdentity("LabelHost-8D8E5620442B159"));
 		this.SetId(this.exitPoint1, new OpenSpan.Design.ComponentIdentity("ExitPoint-8D8E5620E43C8BE"));
@@ -121,7 +120,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.SetId(this.jumpHost1, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E5621C904730"));
 		this.SetId(this.connectableProperties2, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8E5625C8FCB52"));
 		this.SetId(this.connectableMethod1, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E5627F568779"));
-		this.SetId(this.connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E562AE17ED33"));
 		this.SetId(this.labelHost3, new OpenSpan.Design.ComponentIdentity("LabelHost-8D8E562B4A3A647"));
 		this.SetId(this.jumpHost2, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E562C460265B"));
 		this.SetId(this.jumpHost3, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E562C6FD3BCC"));
@@ -129,6 +127,8 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.SetId(this.jumpHost4, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E56411B39A3C"));
 		this.SetId(this.jumpHost5, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E5641752A75F"));
 		this.SetId(this.jumpHost6, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E5641A48E80D"));
+		this.SetId(this.connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E7A181C1AED4"));
+		this.SetId(this.connectableProperties1, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8E7A42A4A7D36"));
 		// 
 		// ACME_P_NavToHome
 		// 
@@ -172,20 +172,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.entryPoint1.MethodName = "_EntryPointExecute";
 		this.entryPoint1.Removing = false;
 		this.entryPoint1.UseAlias = true;
-		// 
-		// connectableProperties1
-		// 
-		this.connectableProperties1.DefaultValues = "";
-		this.connectableProperties1.DisplayName = "Properties";
-		this.connectableProperties1.ExceptionsHandled = false;
-		this.connectableProperties1.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.WebPage";
-		this.connectableProperties1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\WebPage-8D8E2499572E967");
-		memberprototype1.DefaultValue = null;
-		memberprototype1.MemberName = "IsCreated";
-		memberprototype1.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype1.Signature.ReturnType = null;
-		memberprototype1.TypeName = "System.Boolean";
-		this.connectableProperties1.MemberPrototypes.Add(memberprototype1);
 		// 
 		// labelHost1
 		// 
@@ -268,12 +254,12 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.jumpHost1.ExceptionsHandled = false;
 		this.jumpHost1.InstanceTypeName = "OpenSpan.Automation.LabelHost";
 		this.jumpHost1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E561DC276930\\LabelHost-8D8E561FF56E369");
-		memberprototype2.DefaultValue = null;
-		memberprototype2.MemberName = "GoToLabel";
-		memberprototype2.MemberType = System.Reflection.MemberTypes.Method;
-		memberprototype2.Signature.ReturnType = "System.Void";
-		memberprototype2.TypeName = "System.Void";
-		this.jumpHost1.MemberPrototypes.Add(memberprototype2);
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "GoToLabel";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype1.Signature.ReturnType = "System.Void";
+		memberprototype1.TypeName = "System.Void";
+		this.jumpHost1.MemberPrototypes.Add(memberprototype1);
 		this.jumpHost1.ParamsLength = 0;
 		this.jumpHost1.SerializedParamsDefaultValues = "";
 		// 
@@ -284,12 +270,12 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.connectableProperties2.ExceptionsHandled = false;
 		this.connectableProperties2.InstanceTypeName = "OpenSpan.Adapters.Web.Universal.UniversalWebAdapter";
 		this.connectableProperties2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF");
-		memberprototype3.DefaultValue = null;
-		memberprototype3.MemberName = "IsRunning";
-		memberprototype3.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype3.Signature.ReturnType = null;
-		memberprototype3.TypeName = "System.Boolean";
-		this.connectableProperties2.MemberPrototypes.Add(memberprototype3);
+		memberprototype2.DefaultValue = null;
+		memberprototype2.MemberName = "IsRunning";
+		memberprototype2.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype2.Signature.ReturnType = null;
+		memberprototype2.TypeName = "System.Boolean";
+		this.connectableProperties2.MemberPrototypes.Add(memberprototype2);
 		// 
 		// connectableMethod1
 		// 
@@ -297,36 +283,14 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.connectableMethod1.ExceptionsHandled = false;
 		this.connectableMethod1.InstanceTypeName = "OpenSpan.Adapters.Web.Universal.UniversalWebAdapter";
 		this.connectableMethod1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF");
-		memberprototype4.DefaultValue = null;
-		memberprototype4.MemberName = "Start";
-		memberprototype4.MemberType = System.Reflection.MemberTypes.Method;
-		memberprototype4.Signature.ReturnType = "System.Void";
-		memberprototype4.TypeName = "System.Void";
-		this.connectableMethod1.MemberPrototypes.Add(memberprototype4);
+		memberprototype3.DefaultValue = null;
+		memberprototype3.MemberName = "Start";
+		memberprototype3.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype3.Signature.ReturnType = "System.Void";
+		memberprototype3.TypeName = "System.Void";
+		this.connectableMethod1.MemberPrototypes.Add(memberprototype3);
 		this.connectableMethod1.ParamsLength = 0;
 		this.connectableMethod1.SerializedParamsDefaultValues = "";
-		// 
-		// connectableMethod2
-		// 
-		this.connectableMethod2.DisplayName = "<WaitForCreate>";
-		dynamicpropertyinfo8.IsSerializable = true;
-		dynamicpropertyinfo8.NoInputConvesion = false;
-		dynamicpropertyinfo8.Source = "";
-		dynamicpropertyinfo8.ValidateConnectionCallback = null;
-		dynamicpropertyinfo8.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
-		dynamicpropertyinfo8.CodeDomData = _resources_.GetString("_ACME_P_NavToHome_10_");
-		this.connectableMethod2.DynamicMembers.Add(dynamicpropertyinfo8);
-		this.connectableMethod2.ExceptionsHandled = false;
-		this.connectableMethod2.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.WebPage";
-		this.connectableMethod2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\WebPage-8D8E248A5F8C9E4");
-		memberprototype5.DefaultValue = null;
-		memberprototype5.MemberName = "WaitForCreate";
-		memberprototype5.MemberType = System.Reflection.MemberTypes.Method;
-		memberprototype5.Signature.ReturnType = "System.Boolean";
-		memberprototype5.TypeName = "System.Boolean";
-		this.connectableMethod2.MemberPrototypes.Add(memberprototype5);
-		this.connectableMethod2.ParamsLength = 0;
-		this.connectableMethod2.SerializedParamsDefaultValues = "";
 		// 
 		// labelHost3
 		// 
@@ -346,12 +310,12 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.jumpHost2.ExceptionsHandled = false;
 		this.jumpHost2.InstanceTypeName = "OpenSpan.Automation.LabelHost";
 		this.jumpHost2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E561DC276930\\LabelHost-8D8E562B4A3A647");
-		memberprototype6.DefaultValue = null;
-		memberprototype6.MemberName = "GoToLabel";
-		memberprototype6.MemberType = System.Reflection.MemberTypes.Method;
-		memberprototype6.Signature.ReturnType = "System.Void";
-		memberprototype6.TypeName = "System.Void";
-		this.jumpHost2.MemberPrototypes.Add(memberprototype6);
+		memberprototype4.DefaultValue = null;
+		memberprototype4.MemberName = "GoToLabel";
+		memberprototype4.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype4.Signature.ReturnType = "System.Void";
+		memberprototype4.TypeName = "System.Void";
+		this.jumpHost2.MemberPrototypes.Add(memberprototype4);
 		this.jumpHost2.ParamsLength = 0;
 		this.jumpHost2.SerializedParamsDefaultValues = "";
 		// 
@@ -361,12 +325,12 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.jumpHost3.ExceptionsHandled = false;
 		this.jumpHost3.InstanceTypeName = "OpenSpan.Automation.LabelHost";
 		this.jumpHost3.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E561DC276930\\LabelHost-8D8E562B4A3A647");
-		memberprototype7.DefaultValue = null;
-		memberprototype7.MemberName = "GoToLabel";
-		memberprototype7.MemberType = System.Reflection.MemberTypes.Method;
-		memberprototype7.Signature.ReturnType = "System.Void";
-		memberprototype7.TypeName = "System.Void";
-		this.jumpHost3.MemberPrototypes.Add(memberprototype7);
+		memberprototype5.DefaultValue = null;
+		memberprototype5.MemberName = "GoToLabel";
+		memberprototype5.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype5.Signature.ReturnType = "System.Void";
+		memberprototype5.TypeName = "System.Void";
+		this.jumpHost3.MemberPrototypes.Add(memberprototype5);
 		this.jumpHost3.ParamsLength = 0;
 		this.jumpHost3.SerializedParamsDefaultValues = "";
 		// 
@@ -376,9 +340,9 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.connectableMethod3.ExceptionsHandled = false;
 		this.connectableMethod3.InstanceTypeName = "OpenSpan.Automation.Automator";
 		this.connectableMethod3.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E55BD1146088");
-		memberprototype8.DefaultValue = null;
-		memberprototype8.MemberName = "_EntryPointExecute";
-		memberprototype8.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype6.DefaultValue = null;
+		memberprototype6.MemberName = "_EntryPointExecute";
+		memberprototype6.MemberType = System.Reflection.MemberTypes.Method;
 		parameterprototype1.CanRead = true;
 		parameterprototype1.CanWrite = false;
 		parameterprototype1.DefaultSet = false;
@@ -386,10 +350,10 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		parameterprototype1.ParamName = "param1";
 		parameterprototype1.Position = 0;
 		parameterprototype1.TypeName = "System.String";
-		memberprototype8.Signature.ParameterPrototype.Add(parameterprototype1);
-		memberprototype8.Signature.ReturnType = "System.Void";
-		memberprototype8.TypeName = "System.Void";
-		this.connectableMethod3.MemberPrototypes.Add(memberprototype8);
+		memberprototype6.Signature.ParameterPrototype.Add(parameterprototype1);
+		memberprototype6.Signature.ReturnType = "System.Void";
+		memberprototype6.TypeName = "System.Void";
+		this.connectableMethod3.MemberPrototypes.Add(memberprototype6);
 		this.connectableMethod3.ParamsLength = 0;
 		this.connectableMethod3.SerializedParamsDefaultValues = "";
 		// 
@@ -399,12 +363,12 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.jumpHost4.ExceptionsHandled = false;
 		this.jumpHost4.InstanceTypeName = "OpenSpan.Automation.LabelHost";
 		this.jumpHost4.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E561DC276930\\LabelHost-8D8E561FF56E369");
-		memberprototype9.DefaultValue = null;
-		memberprototype9.MemberName = "GoToLabel";
-		memberprototype9.MemberType = System.Reflection.MemberTypes.Method;
-		memberprototype9.Signature.ReturnType = "System.Void";
-		memberprototype9.TypeName = "System.Void";
-		this.jumpHost4.MemberPrototypes.Add(memberprototype9);
+		memberprototype7.DefaultValue = null;
+		memberprototype7.MemberName = "GoToLabel";
+		memberprototype7.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype7.Signature.ReturnType = "System.Void";
+		memberprototype7.TypeName = "System.Void";
+		this.jumpHost4.MemberPrototypes.Add(memberprototype7);
 		this.jumpHost4.ParamsLength = 0;
 		this.jumpHost4.SerializedParamsDefaultValues = "";
 		// 
@@ -414,9 +378,9 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.jumpHost5.ExceptionsHandled = false;
 		this.jumpHost5.InstanceTypeName = "OpenSpan.Automation.LabelHost";
 		this.jumpHost5.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E561DC276930\\LabelHost-8D8E5620442B159");
-		memberprototype10.DefaultValue = null;
-		memberprototype10.MemberName = "GoToLabel";
-		memberprototype10.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype8.DefaultValue = null;
+		memberprototype8.MemberName = "GoToLabel";
+		memberprototype8.MemberType = System.Reflection.MemberTypes.Method;
 		parameterprototype2.CanRead = false;
 		parameterprototype2.CanWrite = true;
 		parameterprototype2.DefaultSet = false;
@@ -424,10 +388,10 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		parameterprototype2.ParamName = "_param1";
 		parameterprototype2.Position = 0;
 		parameterprototype2.TypeName = "System.String";
-		memberprototype10.Signature.ParameterPrototype.Add(parameterprototype2);
-		memberprototype10.Signature.ReturnType = "System.Void";
-		memberprototype10.TypeName = "System.Void";
-		this.jumpHost5.MemberPrototypes.Add(memberprototype10);
+		memberprototype8.Signature.ParameterPrototype.Add(parameterprototype2);
+		memberprototype8.Signature.ReturnType = "System.Void";
+		memberprototype8.TypeName = "System.Void";
+		this.jumpHost5.MemberPrototypes.Add(memberprototype8);
 		this.jumpHost5.ParamsLength = 0;
 		this.jumpHost5.SerializedParamsDefaultValues = "";
 		// 
@@ -437,9 +401,9 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.jumpHost6.ExceptionsHandled = false;
 		this.jumpHost6.InstanceTypeName = "OpenSpan.Automation.LabelHost";
 		this.jumpHost6.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E561DC276930\\LabelHost-8D8E5620442B159");
-		memberprototype11.DefaultValue = null;
-		memberprototype11.MemberName = "GoToLabel";
-		memberprototype11.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype9.DefaultValue = null;
+		memberprototype9.MemberName = "GoToLabel";
+		memberprototype9.MemberType = System.Reflection.MemberTypes.Method;
 		parameterprototype3.CanRead = false;
 		parameterprototype3.CanWrite = true;
 		parameterprototype3.DefaultSet = true;
@@ -447,12 +411,48 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		parameterprototype3.ParamName = "_param1";
 		parameterprototype3.Position = 0;
 		parameterprototype3.TypeName = "System.String";
-		memberprototype11.Signature.ParameterPrototype.Add(parameterprototype3);
-		memberprototype11.Signature.ReturnType = "System.Void";
-		memberprototype11.TypeName = "System.Void";
-		this.jumpHost6.MemberPrototypes.Add(memberprototype11);
+		memberprototype9.Signature.ParameterPrototype.Add(parameterprototype3);
+		memberprototype9.Signature.ReturnType = "System.Void";
+		memberprototype9.TypeName = "System.Void";
+		this.jumpHost6.MemberPrototypes.Add(memberprototype9);
 		this.jumpHost6.ParamsLength = 0;
 		this.jumpHost6.SerializedParamsDefaultValues = "";
+		// 
+		// connectableMethod2
+		// 
+		this.connectableMethod2.DisplayName = "<WaitForCreate>";
+		dynamicpropertyinfo8.IsSerializable = true;
+		dynamicpropertyinfo8.NoInputConvesion = false;
+		dynamicpropertyinfo8.Source = "";
+		dynamicpropertyinfo8.ValidateConnectionCallback = null;
+		dynamicpropertyinfo8.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo8.CodeDomData = _resources_.GetString("_ACME_P_NavToHome_10_");
+		this.connectableMethod2.DynamicMembers.Add(dynamicpropertyinfo8);
+		this.connectableMethod2.ExceptionsHandled = false;
+		this.connectableMethod2.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.WebPage";
+		this.connectableMethod2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\WebPage-8D8E3D8221A8913");
+		memberprototype10.DefaultValue = null;
+		memberprototype10.MemberName = "WaitForCreate";
+		memberprototype10.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype10.Signature.ReturnType = "System.Boolean";
+		memberprototype10.TypeName = "System.Boolean";
+		this.connectableMethod2.MemberPrototypes.Add(memberprototype10);
+		this.connectableMethod2.ParamsLength = 0;
+		this.connectableMethod2.SerializedParamsDefaultValues = "";
+		// 
+		// connectableProperties1
+		// 
+		this.connectableProperties1.DefaultValues = "";
+		this.connectableProperties1.DisplayName = "Properties";
+		this.connectableProperties1.ExceptionsHandled = false;
+		this.connectableProperties1.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.WebPage";
+		this.connectableProperties1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\WebPage-8D8E3D771F66B1F");
+		memberprototype11.DefaultValue = null;
+		memberprototype11.MemberName = "IsCreated";
+		memberprototype11.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype11.Signature.ReturnType = null;
+		memberprototype11.TypeName = "System.Boolean";
+		this.connectableProperties1.MemberPrototypes.Add(memberprototype11);
 		// 
 		// Initialize CodeDom data
 		// 
@@ -462,7 +462,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		// 
 		this.mComponents = new System.Collections.Generic.List<System.ComponentModel.IComponent>(20);
 		this.Components.Add(this.entryPoint1);
-		this.Components.Add(this.connectableProperties1);
 		this.Components.Add(this.labelHost1);
 		this.Components.Add(this.labelHost2);
 		this.Components.Add(this.exitPoint1);
@@ -470,7 +469,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.Components.Add(this.jumpHost1);
 		this.Components.Add(this.connectableProperties2);
 		this.Components.Add(this.connectableMethod1);
-		this.Components.Add(this.connectableMethod2);
 		this.Components.Add(this.labelHost3);
 		this.Components.Add(this.jumpHost2);
 		this.Components.Add(this.jumpHost3);
@@ -478,6 +476,8 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		this.Components.Add(this.jumpHost4);
 		this.Components.Add(this.jumpHost5);
 		this.Components.Add(this.jumpHost6);
+		this.Components.Add(this.connectableMethod2);
+		this.Components.Add(this.connectableProperties1);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -556,29 +556,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		// Result
 		// 
 		return entryPoint1;
-	}
-	
-	internal OpenSpan.Automation.ConnectableProperties Create_connectableProperties1(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
-	{
-		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
-		OpenSpan.Automation.ConnectableProperties connectableProperties1 = new OpenSpan.Automation.ConnectableProperties();
-		this.SetId(connectableProperties1, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8E561F9D98711"));
-		connectableProperties1.DefaultValues = "";
-		connectableProperties1.DisplayName = "Properties";
-		connectableProperties1.ExceptionsHandled = false;
-		connectableProperties1.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.WebPage";
-		connectableProperties1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\WebPage-8D8E2499572E967");
-		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
-		memberprototype1.DefaultValue = null;
-		memberprototype1.MemberName = "IsCreated";
-		memberprototype1.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype1.Signature.ReturnType = null;
-		memberprototype1.TypeName = "System.Boolean";
-		connectableProperties1.MemberPrototypes.Add(memberprototype1);
-		// 
-		// Result
-		// 
-		return connectableProperties1;
 	}
 	
 	internal OpenSpan.Automation.LabelHost Create_labelHost1(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
@@ -844,39 +821,6 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		return connectableMethod1;
 	}
 	
-	internal OpenSpan.Automation.ConnectableMethod Create_connectableMethod2(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
-	{
-		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(ACME_P_NavToHome));
-		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
-		OpenSpan.Automation.ConnectableMethod connectableMethod2 = new OpenSpan.Automation.ConnectableMethod();
-		this.SetId(connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E562AE17ED33"));
-		connectableMethod2.DisplayName = "<WaitForCreate>";
-		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
-		dynamicpropertyinfo1.IsSerializable = true;
-		dynamicpropertyinfo1.NoInputConvesion = false;
-		dynamicpropertyinfo1.Source = "";
-		dynamicpropertyinfo1.ValidateConnectionCallback = null;
-		dynamicpropertyinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
-		dynamicpropertyinfo1.CodeDomData = _resources_.GetString("_ACME_P_NavToHome_10_");
-		connectableMethod2.DynamicMembers.Add(dynamicpropertyinfo1);
-		connectableMethod2.ExceptionsHandled = false;
-		connectableMethod2.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.WebPage";
-		connectableMethod2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\WebPage-8D8E248A5F8C9E4");
-		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
-		memberprototype1.DefaultValue = null;
-		memberprototype1.MemberName = "WaitForCreate";
-		memberprototype1.MemberType = System.Reflection.MemberTypes.Method;
-		memberprototype1.Signature.ReturnType = "System.Boolean";
-		memberprototype1.TypeName = "System.Boolean";
-		connectableMethod2.MemberPrototypes.Add(memberprototype1);
-		connectableMethod2.ParamsLength = 0;
-		connectableMethod2.SerializedParamsDefaultValues = "";
-		// 
-		// Result
-		// 
-		return connectableMethod2;
-	}
-	
 	internal OpenSpan.Automation.LabelHost Create_labelHost3(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
 	{
 		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(ACME_P_NavToHome));
@@ -1068,6 +1012,62 @@ public sealed class ACME_P_NavToHome : OpenSpan.Automation.Automator
 		// Result
 		// 
 		return jumpHost6;
+	}
+	
+	internal OpenSpan.Automation.ConnectableMethod Create_connectableMethod2(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(ACME_P_NavToHome));
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Automation.ConnectableMethod connectableMethod2 = new OpenSpan.Automation.ConnectableMethod();
+		this.SetId(connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E7A181C1AED4"));
+		connectableMethod2.DisplayName = "<WaitForCreate>";
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		dynamicpropertyinfo1.IsSerializable = true;
+		dynamicpropertyinfo1.NoInputConvesion = false;
+		dynamicpropertyinfo1.Source = "";
+		dynamicpropertyinfo1.ValidateConnectionCallback = null;
+		dynamicpropertyinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo1.CodeDomData = _resources_.GetString("_ACME_P_NavToHome_10_");
+		connectableMethod2.DynamicMembers.Add(dynamicpropertyinfo1);
+		connectableMethod2.ExceptionsHandled = false;
+		connectableMethod2.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.WebPage";
+		connectableMethod2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\WebPage-8D8E3D8221A8913");
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "WaitForCreate";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype1.Signature.ReturnType = "System.Boolean";
+		memberprototype1.TypeName = "System.Boolean";
+		connectableMethod2.MemberPrototypes.Add(memberprototype1);
+		connectableMethod2.ParamsLength = 0;
+		connectableMethod2.SerializedParamsDefaultValues = "";
+		// 
+		// Result
+		// 
+		return connectableMethod2;
+	}
+	
+	internal OpenSpan.Automation.ConnectableProperties Create_connectableProperties1(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Automation.ConnectableProperties connectableProperties1 = new OpenSpan.Automation.ConnectableProperties();
+		this.SetId(connectableProperties1, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8E7A42A4A7D36"));
+		connectableProperties1.DefaultValues = "";
+		connectableProperties1.DisplayName = "Properties";
+		connectableProperties1.ExceptionsHandled = false;
+		connectableProperties1.InstanceTypeName = "OpenSpan.Adapters.Web.WebBase.Controls.WebPage";
+		connectableProperties1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("UniversalWebAdapter-8D8DE50B28552EF\\WebPage-8D8E3D771F66B1F");
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "IsCreated";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype1.Signature.ReturnType = null;
+		memberprototype1.TypeName = "System.Boolean";
+		connectableProperties1.MemberPrototypes.Add(memberprototype1);
+		// 
+		// Result
+		// 
+		return connectableProperties1;
 	}
 }
 
