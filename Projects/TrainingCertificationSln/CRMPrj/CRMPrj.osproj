@@ -25,6 +25,7 @@
     <!-- Deployment -->
     <DeploymentFiles>
     </DeploymentFiles>
+    <InteractionConfigurationFile>..\Interaction.xml</InteractionConfigurationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -113,6 +114,14 @@
     </Reference>
     <Reference Include="OpenSpan.ExpressTranslators, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.ExpressTranslators.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Interactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Interactions.Controls.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="OpenSpan.OCR">
@@ -221,11 +230,23 @@
       <SubType>Component</SubType>
       <Id>WindowsAdapter-8D8DFE68142AF1E</Id>
     </Compile>
+    <Compile Include="Events\CRM_E_CRMChild_Closing.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E885DE61584A</Id>
+    </Compile>
+    <Compile Include="Events\CRM_E_CRMChild_Created.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E884D37F8321</Id>
+    </Compile>
     <Compile Include="Events\CRM_E_CRMfrmLogin_Created.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E30F1807D26C</Id>
     </Compile>
     <Compile Include="Extensions\TextBox1.cs" />
+    <Compile Include="_GC_CRM.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D8E7CA979738F7</Id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="CRM.res">

@@ -3,12 +3,12 @@
     <Type Value="OpenSpan.Automation.Automator" />
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
-      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -84,7 +84,7 @@
         </Objects>
         <Links>
           <Link PartID="6" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E5756E4A97C8\ConnectableEvent-8D8E57588E5F164" MemberComponentId="Automator-8D8E5756E4A97C8\EMPTY" />
+            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E5756E4A97C8\ConnectableEvent-8D8E57588E5F164" MemberComponentId="Automator-8D8E5756E4A97C8\ConnectableEvent-8D8E57588E5F164" />
             <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E5756E4A97C8\ConnectableMethod-8D8E57599D4761D" MemberComponentId="Automator-8D8E5756E4A97C8\ConnectableMethod-8D8E57599D4761D" />
             <LinkPoints>
               <Point value="175, 125" />
@@ -137,8 +137,8 @@
             <LinkPoints>
               <Point value="456, 177" />
               <Point value="466, 177" />
-              <Point value="501, 177" />
-              <Point value="501, 242" />
+              <Point value="468, 177" />
+              <Point value="468, 242" />
               <Point value="535, 242" />
               <Point value="545, 242" />
             </LinkPoints>
@@ -149,8 +149,8 @@
             <LinkPoints>
               <Point value="456, 194" />
               <Point value="466, 194" />
-              <Point value="501, 194" />
-              <Point value="501, 122" />
+              <Point value="468, 194" />
+              <Point value="468, 122" />
               <Point value="535, 122" />
               <Point value="545, 122" />
             </LinkPoints>
@@ -159,6 +159,9 @@
         <Comments />
         <SubGraphs />
       </AutomationDocument>
+      <DocumentPosition Value="Binary">
+        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAQEIL</Binary>
+      </DocumentPosition>
       <ShowDesignCompNames Value="True" />
     </OpenSpan.Automation.Automator>
     <OpenSpan.Automation.ConnectableEvent Name="connectableEvent1" Id="ConnectableEvent-8D8E57588E5F164">

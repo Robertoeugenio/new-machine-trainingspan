@@ -25,6 +25,7 @@
     <!-- Deployment -->
     <DeploymentFiles>
     </DeploymentFiles>
+    <InteractionConfigurationFile>..\Interaction.xml</InteractionConfigurationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -105,6 +106,14 @@
     </Reference>
     <Reference Include="OpenSpan.ExpressTranslators, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.ExpressTranslators.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Interactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Interactions.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Interactions.Controls.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="OpenSpan.OCR, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
@@ -228,6 +237,10 @@
     <Compile Include="Procedures\ACME_P_SignIn.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E55BD1146088</Id>
+    </Compile>
+    <Compile Include="_GC_ACME.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D8E855CDDFD15A</Id>
     </Compile>
   </ItemGroup>
   <ItemGroup>

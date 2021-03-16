@@ -28,6 +28,7 @@ namespace ACMESearchPrj.Project
 			base.DesignComponentTypes.Add("ACMESearchPrj.ACME_P_NavToHome");
 			base.DesignComponentTypes.Add("ACMESearchPrj.ACME_P_SearchByZip");
 			base.DesignComponentTypes.Add("ACMESearchPrj.ACME_P_SignIn");
+			base.DesignComponentTypes.Add("ACMESearchPrj._GC_ACME");
 		}
 	}
 }

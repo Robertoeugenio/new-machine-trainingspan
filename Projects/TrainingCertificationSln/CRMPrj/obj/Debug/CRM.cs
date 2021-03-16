@@ -167,7 +167,6 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		OpenSpan.Adapters.TextMatchData textmatchdata22 = new OpenSpan.Adapters.TextMatchData();
 		OpenSpan.Adapters.TextMatchData textmatchdata23 = new OpenSpan.Adapters.TextMatchData();
 		OpenSpan.Adapters.TextMatchData textmatchdata24 = new OpenSpan.Adapters.TextMatchData();
-		OpenSpan.ApplicationFramework.AssistedSignOn.Credential credential1 = new OpenSpan.ApplicationFramework.AssistedSignOn.Credential();
 		OpenSpan.Adapters.TextMatchData textmatchdata25 = new OpenSpan.Adapters.TextMatchData();
 		OpenSpan.Adapters.TextMatchData textmatchdata26 = new OpenSpan.Adapters.TextMatchData();
 		this.DotNet20Factory = new OpenSpan.Adapters.DotNet.DotNet20Factory();
@@ -426,6 +425,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.CRMbtnNewCall.Name = "CRMbtnNewCall";
 		this.CRMbtnNewCall.PegaId = 0;
 		this.CRMbtnNewCall.TargetTypeString = _resources_.GetString("_CRM_2_");
+		this.CRMbtnNewCall.UseKeys = true;
 		this.CRMbtnNewCall.XrayGuid = "";
 		// 
 		// CRMbtnUser1
@@ -443,6 +443,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.CRMbtnUser1.Name = "CRMbtnUser1";
 		this.CRMbtnUser1.PegaId = 0;
 		this.CRMbtnUser1.TargetTypeString = _resources_.GetString("_CRM_2_");
+		this.CRMbtnUser1.UseKeys = true;
 		this.CRMbtnUser1.XrayGuid = "";
 		// 
 		// CRMbtnUser2
@@ -460,6 +461,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.CRMbtnUser2.Name = "CRMbtnUser2";
 		this.CRMbtnUser2.PegaId = 0;
 		this.CRMbtnUser2.TargetTypeString = _resources_.GetString("_CRM_2_");
+		this.CRMbtnUser2.UseKeys = true;
 		this.CRMbtnUser2.XrayGuid = "";
 		// 
 		// CRMbtnUser3
@@ -477,6 +479,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.CRMbtnUser3.Name = "CRMbtnUser3";
 		this.CRMbtnUser3.PegaId = 0;
 		this.CRMbtnUser3.TargetTypeString = _resources_.GetString("_CRM_2_");
+		this.CRMbtnUser3.UseKeys = true;
 		this.CRMbtnUser3.XrayGuid = "";
 		this.CRMToolBar.Controls.Add(this.CRMbtnNewCall);
 		this.CRMToolBar.Controls.Add(this.CRMbtnUser1);
@@ -495,6 +498,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.CRMToolBar.Name = "CRMToolBar";
 		this.CRMToolBar.PegaId = 0;
 		this.CRMToolBar.TargetTypeString = _resources_.GetString("_CRM_5_");
+		this.CRMToolBar.UseKeys = true;
 		this.CRMToolBar.XrayGuid = "";
 		// 
 		// MdiClient
@@ -641,7 +645,6 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.CRMchild.Name = "CRMchild";
 		this.CRMchild.PegaId = 0;
 		this.CRMchild.TargetTypeString = _resources_.GetString("_CRM_8_");
-		this.CRMchild.UseKeys = true;
 		this.CRMchild.XrayGuid = "";
 		this.MdiClient.Controls.Add(this.CRMchild);
 		this.MdiClient.Extender = null;
@@ -696,28 +699,21 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.CRMfrmMain.Name = "CRMfrmMain";
 		this.CRMfrmMain.PegaId = 0;
 		this.CRMfrmMain.TargetTypeString = _resources_.GetString("_CRM_4_");
+		this.CRMfrmMain.UseKeys = true;
 		this.CRMfrmMain.XrayGuid = "";
 		this.Controls.Add(this.DotNet20Factory);
 		this.Controls.Add(this.ActiveXFactory);
 		this.Controls.Add(this.CRMfrmLogin);
 		this.Controls.Add(this.CRMfrmMain);
-		credential1.ApplicationKey = "ACME";
-		credential1.Category = null;
-		credential1.Group = null;
-		credential1.LoginControl = new OpenSpan.Design.ReferenceIdentity("WindowsAdapter-8D8DFE68142AF1E\\Button-8D8DFF16A0C389F");
-		credential1.PasswordControl = new OpenSpan.Design.ReferenceIdentity("WindowsAdapter-8D8DFE68142AF1E\\TextBox-8D8DFF1C7CECE46");
-		credential1.UserNameControl = new OpenSpan.Design.ReferenceIdentity("WindowsAdapter-8D8DFE68142AF1E\\TextBox-8D8DFF86464F285");
-		this.Credentials.Add(credential1);
 		this.ExpressNativeTypes = null;
 		this.Extender = null;
 		this.FriendlyName = "CRM";
 		this.Name = "CRM";
-		this.ReadyForRobotWork = false;
+		this.Path = "C:\\Program Files (x86)\\Openspan\\CRM Setup\\CRM.exe";
 		this.ReasonAdapterNotReady = null;
 		this.StartMyDay = OpenSpan.ApplicationFramework.StartMyDay.StartOptions.None;
 		this.StartMyDayControls = null;
-		this.StartTimeout = 0;
-		this.StopMethod = OpenSpan.Adapters.Windows.WindowsProcessStopMethod.None;
+		this.WorkingDirectory = "C:\\Program Files (x86)\\Openspan\\CRM Setup";
 		this.XrayMasterNames = null;
 		// 
 		// virtualControlNativeControlNameMat9
@@ -1279,6 +1275,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnNewCall.Name = "CRMbtnNewCall";
 		CRMbtnNewCall.PegaId = 0;
 		CRMbtnNewCall.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnNewCall.UseKeys = true;
 		CRMbtnNewCall.XrayGuid = "";
 		OpenSpan.Adapters.Controls.Button CRMbtnUser1;
 		CRMbtnUser1 = new OpenSpan.Adapters.Controls.Button();
@@ -1301,6 +1298,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnUser1.Name = "CRMbtnUser1";
 		CRMbtnUser1.PegaId = 0;
 		CRMbtnUser1.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnUser1.UseKeys = true;
 		CRMbtnUser1.XrayGuid = "";
 		OpenSpan.Adapters.Controls.Button CRMbtnUser2;
 		CRMbtnUser2 = new OpenSpan.Adapters.Controls.Button();
@@ -1323,6 +1321,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnUser2.Name = "CRMbtnUser2";
 		CRMbtnUser2.PegaId = 0;
 		CRMbtnUser2.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnUser2.UseKeys = true;
 		CRMbtnUser2.XrayGuid = "";
 		OpenSpan.Adapters.Controls.Button CRMbtnUser3;
 		CRMbtnUser3 = new OpenSpan.Adapters.Controls.Button();
@@ -1345,6 +1344,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnUser3.Name = "CRMbtnUser3";
 		CRMbtnUser3.PegaId = 0;
 		CRMbtnUser3.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnUser3.UseKeys = true;
 		CRMbtnUser3.XrayGuid = "";
 		CRMToolBar.Controls.Add(CRMbtnNewCall);
 		CRMToolBar.Controls.Add(CRMbtnUser1);
@@ -1366,6 +1366,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMToolBar.Name = "CRMToolBar";
 		CRMToolBar.PegaId = 0;
 		CRMToolBar.TargetTypeString = _resources_.GetString("_CRM_5_");
+		CRMToolBar.UseKeys = true;
 		CRMToolBar.XrayGuid = "";
 		OpenSpan.Adapters.Controls.MdiClient MdiClient;
 		MdiClient = new OpenSpan.Adapters.Controls.MdiClient();
@@ -1554,7 +1555,6 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMchild.Name = "CRMchild";
 		CRMchild.PegaId = 0;
 		CRMchild.TargetTypeString = _resources_.GetString("_CRM_8_");
-		CRMchild.UseKeys = true;
 		CRMchild.XrayGuid = "";
 		MdiClient.Controls.Add(CRMchild);
 		MdiClient.Extender = null;
@@ -1622,6 +1622,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMfrmMain.Name = "CRMfrmMain";
 		CRMfrmMain.PegaId = 0;
 		CRMfrmMain.TargetTypeString = _resources_.GetString("_CRM_4_");
+		CRMfrmMain.UseKeys = true;
 		CRMfrmMain.XrayGuid = "";
 		// 
 		// Set designComp Ids
@@ -1726,6 +1727,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnNewCall.Name = "CRMbtnNewCall";
 		CRMbtnNewCall.PegaId = 0;
 		CRMbtnNewCall.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnNewCall.UseKeys = true;
 		CRMbtnNewCall.XrayGuid = "";
 		OpenSpan.Adapters.Controls.Button CRMbtnUser1;
 		CRMbtnUser1 = new OpenSpan.Adapters.Controls.Button();
@@ -1748,6 +1750,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnUser1.Name = "CRMbtnUser1";
 		CRMbtnUser1.PegaId = 0;
 		CRMbtnUser1.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnUser1.UseKeys = true;
 		CRMbtnUser1.XrayGuid = "";
 		OpenSpan.Adapters.Controls.Button CRMbtnUser2;
 		CRMbtnUser2 = new OpenSpan.Adapters.Controls.Button();
@@ -1770,6 +1773,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnUser2.Name = "CRMbtnUser2";
 		CRMbtnUser2.PegaId = 0;
 		CRMbtnUser2.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnUser2.UseKeys = true;
 		CRMbtnUser2.XrayGuid = "";
 		OpenSpan.Adapters.Controls.Button CRMbtnUser3;
 		CRMbtnUser3 = new OpenSpan.Adapters.Controls.Button();
@@ -1792,6 +1796,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnUser3.Name = "CRMbtnUser3";
 		CRMbtnUser3.PegaId = 0;
 		CRMbtnUser3.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnUser3.UseKeys = true;
 		CRMbtnUser3.XrayGuid = "";
 		CRMToolBar.Controls.Add(CRMbtnNewCall);
 		CRMToolBar.Controls.Add(CRMbtnUser1);
@@ -1813,6 +1818,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMToolBar.Name = "CRMToolBar";
 		CRMToolBar.PegaId = 0;
 		CRMToolBar.TargetTypeString = _resources_.GetString("_CRM_5_");
+		CRMToolBar.UseKeys = true;
 		CRMToolBar.XrayGuid = "";
 		// 
 		// Set designComp Ids
@@ -1866,6 +1872,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnNewCall.Name = "CRMbtnNewCall";
 		CRMbtnNewCall.PegaId = 0;
 		CRMbtnNewCall.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnNewCall.UseKeys = true;
 		CRMbtnNewCall.XrayGuid = "";
 		// 
 		// Set designComp Ids
@@ -1917,6 +1924,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnUser1.Name = "CRMbtnUser1";
 		CRMbtnUser1.PegaId = 0;
 		CRMbtnUser1.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnUser1.UseKeys = true;
 		CRMbtnUser1.XrayGuid = "";
 		// 
 		// Set designComp Ids
@@ -1968,6 +1976,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnUser2.Name = "CRMbtnUser2";
 		CRMbtnUser2.PegaId = 0;
 		CRMbtnUser2.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnUser2.UseKeys = true;
 		CRMbtnUser2.XrayGuid = "";
 		// 
 		// Set designComp Ids
@@ -2019,6 +2028,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMbtnUser3.Name = "CRMbtnUser3";
 		CRMbtnUser3.PegaId = 0;
 		CRMbtnUser3.TargetTypeString = _resources_.GetString("_CRM_2_");
+		CRMbtnUser3.UseKeys = true;
 		CRMbtnUser3.XrayGuid = "";
 		// 
 		// Set designComp Ids
@@ -2250,7 +2260,6 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMchild.Name = "CRMchild";
 		CRMchild.PegaId = 0;
 		CRMchild.TargetTypeString = _resources_.GetString("_CRM_8_");
-		CRMchild.UseKeys = true;
 		CRMchild.XrayGuid = "";
 		MdiClient.Controls.Add(CRMchild);
 		MdiClient.Extender = null;
@@ -2499,7 +2508,6 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMchild.Name = "CRMchild";
 		CRMchild.PegaId = 0;
 		CRMchild.TargetTypeString = _resources_.GetString("_CRM_8_");
-		CRMchild.UseKeys = true;
 		CRMchild.XrayGuid = "";
 		// 
 		// Set designComp Ids

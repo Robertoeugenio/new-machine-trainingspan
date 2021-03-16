@@ -4,135 +4,146 @@
     <Assembly Value="OpenSpan" />
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-      <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
     <BuildReferences />
   </ComponentInfo>
   <Component Version="1.0">
-    <OpenSpan.Design.DesignForm Name="frmCustInfo" Id="DesignForm-8D8E7BD83EF27E1">
-      <AutoScaleDimensions Value="6, 13" />
+    <OpenSpan.Design.DesignForm Name="frmCustInfo" Id="DesignForm-8D8E7C0F2493EDE">
+      <AutoScaleDimensions Value="7, 13" />
       <BackColor Value="Control" />
-      <ClientSize Value="494, 415" />
+      <ClientSize Value="577, 386" />
+      <Font Value="Microsoft Sans Serif, 8.25pt, style=Bold" />
+      <ForeColor Value="Highlight" />
       <Location Value="15, 15" />
       <StartPosition Value="CenterScreen" />
-      <Text Value="Customer Information" />
+      <Text Value="Customer information" />
       <TopMost Value="True" />
       <Content Name="Controls">
         <Items>
-          <System.Windows.Forms.GroupBox Name="groupBox1" Id="GroupBox-8D8E7BF237BB5BA">
-            <Location Value="292, 12" />
-            <Size Value="200, 276" />
+          <System.Windows.Forms.GroupBox Name="MaingboxNearestStore" Id="GroupBox-8D8E7C1AA633053">
+            <Location Value="316, 31" />
+            <Size Value="233, 195" />
             <TabIndex Value="15" />
             <TabStop Value="False" />
-            <Text Value="groupBox1" />
+            <Text Value="ACME Nearest Store" />
             <Content Name="Controls">
               <Items>
-                <System.Windows.Forms.Label Name="label8" Id="Label-8D8E7BF49741D92">
-                  <AutoSize Value="True" />
-                  <Location Value="22, 81" />
-                  <Size Value="35, 13" />
-                  <TabIndex Value="1" />
-                  <Text Value="label8" />
-                </System.Windows.Forms.Label>
-                <System.Windows.Forms.Button Name="button1" Id="Button-8D8E7BF3CCEB6BA">
-                  <Location Value="22, 33" />
-                  <Size Value="105, 23" />
+                <System.Windows.Forms.Button Name="MainbtnNearestStor" Id="Button-8D8E7C1BB733837">
+                  <ForeColor Value="Desktop" />
+                  <Location Value="77, 31" />
+                  <Size Value="87, 23" />
                   <TabIndex Value="0" />
-                  <Text Value="button1" />
+                  <Text Value="Find Store" />
                   <UseVisualStyleBackColor Value="True" />
                 </System.Windows.Forms.Button>
+                <System.Windows.Forms.Label Name="MainlblNearestStore" Id="Label-8D8E7C1639A6C9E">
+                  <AutoSize Value="True" />
+                  <Location Value="73, 88" />
+                  <Size Value="27, 13" />
+                  <TabIndex Value="7" />
+                  <Text Value="-----" />
+                </System.Windows.Forms.Label>
               </Items>
             </Content>
           </System.Windows.Forms.GroupBox>
-          <System.Windows.Forms.ComboBox Name="comboBox1" Id="ComboBox-8D8E7BF031FC5C0">
+          <System.Windows.Forms.ComboBox Name="MaincmbGetAcct" Id="ComboBox-8D8E7C192C47F16">
             <FormattingEnabled Value="True" />
-            <Location Value="94, 235" />
-            <Size Value="121, 21" />
+            <Location Value="159, 60" />
+            <MaxDropDownItems Value="100" />
+            <Size Value="140, 21" />
+            <Sorted Value="True" />
             <TabIndex Value="14" />
           </System.Windows.Forms.ComboBox>
-          <System.Windows.Forms.Label Name="label7" Id="Label-8D8E7BECDA02BFF">
-            <AutoSize Value="True" />
-            <Location Value="19, 243" />
-            <Size Value="35, 13" />
+          <System.Windows.Forms.TextBox Name="MaintxtZip" Id="TextBox-8D8E7C185B33A6A">
+            <Location Value="159, 164" />
+            <Size Value="140, 20" />
+            <TabIndex Value="13" />
+          </System.Windows.Forms.TextBox>
+          <System.Windows.Forms.TextBox Name="MaintxtState" Id="TextBox-8D8E7C1838AACA1">
+            <Location Value="159, 138" />
+            <Size Value="140, 20" />
             <TabIndex Value="12" />
-            <Text Value="label7" />
-          </System.Windows.Forms.Label>
-          <System.Windows.Forms.Label Name="label6" Id="Label-8D8E7BEC5142BDF">
-            <AutoSize Value="True" />
-            <Location Value="19, 209" />
-            <Size Value="35, 13" />
+          </System.Windows.Forms.TextBox>
+          <System.Windows.Forms.TextBox Name="MaintxtCity" Id="TextBox-8D8E7C180C31458">
+            <Location Value="159, 112" />
+            <Size Value="140, 20" />
             <TabIndex Value="11" />
-            <Text Value="label6" />
-          </System.Windows.Forms.Label>
-          <System.Windows.Forms.Label Name="label5" Id="Label-8D8E7BEC35550FF">
-            <AutoSize Value="True" />
-            <Location Value="19, 170" />
-            <Size Value="35, 13" />
+          </System.Windows.Forms.TextBox>
+          <System.Windows.Forms.TextBox Name="MaintxtAddress" Id="TextBox-8D8E7C179673F96">
+            <Location Value="159, 87" />
+            <Size Value="140, 20" />
             <TabIndex Value="10" />
-            <Text Value="label5" />
-          </System.Windows.Forms.Label>
-          <System.Windows.Forms.Label Name="label4" Id="Label-8D8E7BEC1ACD075">
-            <AutoSize Value="True" />
-            <Location Value="16, 129" />
-            <Size Value="35, 13" />
+          </System.Windows.Forms.TextBox>
+          <System.Windows.Forms.TextBox Name="MaintxtName" Id="TextBox-8D8E7C176FF01B7">
+            <Location Value="159, 194" />
+            <Size Value="140, 20" />
             <TabIndex Value="9" />
-            <Text Value="label4" />
-          </System.Windows.Forms.Label>
-          <System.Windows.Forms.Label Name="label3" Id="Label-8D8E7BEBFC4B9CB">
-            <AutoSize Value="True" />
-            <Location Value="16, 93" />
-            <Size Value="35, 13" />
+          </System.Windows.Forms.TextBox>
+          <System.Windows.Forms.TextBox Name="MaintxtCurrentAcct" Id="TextBox-8D8E7C16D9B9731">
+            <Location Value="159, 34" />
+            <Size Value="140, 20" />
             <TabIndex Value="8" />
-            <Text Value="label3" />
-          </System.Windows.Forms.Label>
-          <System.Windows.Forms.Label Name="label2" Id="Label-8D8E7BEBE169F29">
+            <Text Value="--------" />
+          </System.Windows.Forms.TextBox>
+          <System.Windows.Forms.Label Name="MainlblZip" Id="Label-8D8E7C15D48ABD0">
             <AutoSize Value="True" />
-            <Location Value="16, 51" />
-            <Size Value="35, 13" />
-            <TabIndex Value="7" />
-            <Text Value="label2" />
-          </System.Windows.Forms.Label>
-          <System.Windows.Forms.Label Name="label1" Id="Label-8D8E7BEBBE9EB60">
-            <AutoSize Value="True" />
-            <Location Value="13, 18" />
-            <Size Value="35, 13" />
+            <ForeColor Value="Desktop" />
+            <Location Value="40, 201" />
+            <Size Value="60, 13" />
             <TabIndex Value="6" />
-            <Text Value="label1" />
+            <Text Value="ZIP Code" />
           </System.Windows.Forms.Label>
-          <System.Windows.Forms.TextBox Name="textBox6" Id="TextBox-8D8E7BEB1E9031C">
-            <Location Value="94, 203" />
-            <Size Value="183, 20" />
+          <System.Windows.Forms.Label Name="MainlblState" Id="Label-8D8E7C15BDAD954">
+            <AutoSize Value="True" />
+            <ForeColor Value="Desktop" />
+            <Location Value="40, 172" />
+            <Size Value="37, 13" />
             <TabIndex Value="5" />
-          </System.Windows.Forms.TextBox>
-          <System.Windows.Forms.TextBox Name="textBox5" Id="TextBox-8D8E7BEAFFE25E1">
-            <Location Value="94, 163" />
-            <Size Value="183, 20" />
+            <Text Value="State" />
+          </System.Windows.Forms.Label>
+          <System.Windows.Forms.Label Name="MainlblCity" Id="Label-8D8E7C15A57A851">
+            <AutoSize Value="True" />
+            <ForeColor Value="Desktop" />
+            <Location Value="40, 145" />
+            <Size Value="28, 13" />
             <TabIndex Value="4" />
-          </System.Windows.Forms.TextBox>
-          <System.Windows.Forms.TextBox Name="textBox4" Id="TextBox-8D8E7BEAE0EADAB">
-            <Location Value="94, 123" />
-            <Size Value="183, 20" />
+            <Text Value="City" />
+          </System.Windows.Forms.Label>
+          <System.Windows.Forms.Label Name="MainlblAddress" Id="Label-8D8E7C1586FEDA3">
+            <AutoSize Value="True" />
+            <ForeColor Value="Desktop" />
+            <Location Value="40, 119" />
+            <Size Value="52, 13" />
             <TabIndex Value="3" />
-          </System.Windows.Forms.TextBox>
-          <System.Windows.Forms.TextBox Name="textBox3" Id="TextBox-8D8E7BEABB0A1F6">
-            <Location Value="94, 12" />
-            <Size Value="183, 20" />
+            <Text Value="Address" />
+          </System.Windows.Forms.Label>
+          <System.Windows.Forms.Label Name="MainlblName" Id="Label-8D8E7C153FA1FDC">
+            <AutoSize Value="True" />
+            <Location Value="36, 91" />
+            <Size Value="95, 13" />
             <TabIndex Value="2" />
-          </System.Windows.Forms.TextBox>
-          <System.Windows.Forms.TextBox Name="textBox2" Id="TextBox-8D8E7BEA7A9AF77">
-            <Location Value="94, 87" />
-            <Size Value="183, 20" />
+            <Text Value="Customer Name" />
+          </System.Windows.Forms.Label>
+          <System.Windows.Forms.Label Name="MainlblGetAcct" Id="Label-8D8E7C152260E7B">
+            <AutoSize Value="True" />
+            <Location Value="36, 62" />
+            <Size Value="78, 13" />
             <TabIndex Value="1" />
-          </System.Windows.Forms.TextBox>
-          <System.Windows.Forms.TextBox Name="textBox1" Id="TextBox-8D8E7BEA435D372">
-            <Location Value="94, 45" />
-            <Size Value="183, 20" />
+            <Text Value="Get Account" />
+          </System.Windows.Forms.Label>
+          <System.Windows.Forms.Label Name="MainlblCurrentAcct" Id="Label-8D8E7C1508FAFFE">
+            <AutoSize Value="True" />
+            <Font Value="Microsoft Sans Serif, 8.25pt, style=Bold" />
+            <Location Value="36, 34" />
+            <Size Value="99, 13" />
             <TabIndex Value="0" />
-          </System.Windows.Forms.TextBox>
+            <Text Value="Current Account" />
+          </System.Windows.Forms.Label>
         </Items>
       </Content>
     </OpenSpan.Design.DesignForm>

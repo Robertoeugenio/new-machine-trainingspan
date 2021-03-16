@@ -49,7 +49,6 @@
   </ComponentInfo>
   <Component Version="1.0">
     <OpenSpan.Adapters.Windows.WindowsAdapter Name="CRM" Id="WindowsAdapter-8D8DFE68142AF1E">
-      <FriendlyName Value="CRM" />
       <Path Value="C:\Program Files (x86)\Openspan\CRM Setup\CRM.exe" />
       <WorkingDirectory Value="C:\Program Files (x86)\Openspan\CRM Setup" />
       <Content Name="Controls">
@@ -165,6 +164,7 @@
             <MatchingIndex Value="1" />
             <PegaId Value="0" />
             <TargetTypeString Value="OpenSpan.Adapters.DotNet.WindowsForms.DotNetFormTarget, OpenSpan.Adapters.DotNet" />
+            <UseKeys Value="True" />
             <XrayGuid Value="" />
             <Content Name="Controls">
               <Items>
@@ -175,6 +175,7 @@
                   <MatchingIndex Value="0" />
                   <PegaId Value="0" />
                   <TargetTypeString Value="OpenSpan.Adapters.Virtual.VirtualTargets.VirtualToolBar, OpenSpan.Adapters.Virtual" />
+                  <UseKeys Value="True" />
                   <XrayGuid Value="" />
                   <Content Name="Controls">
                     <Items>
@@ -184,6 +185,7 @@
                         <MatchingIndex Value="0" />
                         <PegaId Value="0" />
                         <TargetTypeString Value="OpenSpan.Adapters.Virtual.VirtualTargets.VirtualButton, OpenSpan.Adapters.Virtual" />
+                        <UseKeys Value="True" />
                         <XrayGuid Value="" />
                         <Content Name="MatchRules">
                           <Items>
@@ -199,6 +201,7 @@
                         <MatchingIndex Value="1" />
                         <PegaId Value="0" />
                         <TargetTypeString Value="OpenSpan.Adapters.Virtual.VirtualTargets.VirtualButton, OpenSpan.Adapters.Virtual" />
+                        <UseKeys Value="True" />
                         <XrayGuid Value="" />
                         <Content Name="MatchRules">
                           <Items>
@@ -214,6 +217,7 @@
                         <MatchingIndex Value="2" />
                         <PegaId Value="0" />
                         <TargetTypeString Value="OpenSpan.Adapters.Virtual.VirtualTargets.VirtualButton, OpenSpan.Adapters.Virtual" />
+                        <UseKeys Value="True" />
                         <XrayGuid Value="" />
                         <Content Name="MatchRules">
                           <Items>
@@ -229,6 +233,7 @@
                         <MatchingIndex Value="3" />
                         <PegaId Value="0" />
                         <TargetTypeString Value="OpenSpan.Adapters.Virtual.VirtualTargets.VirtualButton, OpenSpan.Adapters.Virtual" />
+                        <UseKeys Value="True" />
                         <XrayGuid Value="" />
                         <Content Name="MatchRules">
                           <Items>
