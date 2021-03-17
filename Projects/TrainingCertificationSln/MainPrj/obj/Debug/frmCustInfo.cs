@@ -295,7 +295,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		this.Controls.Add(this.MainlblCurrentAcct);
 		this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
 		this.ForeColor = System.Drawing.SystemColors.Highlight;
-		this.Location = new System.Drawing.Point(386, 151);
+		this.Location = new System.Drawing.Point(1709, 127);
 		this.Name = "frmCustInfo";
 		this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 		this.Text = "Customer information";

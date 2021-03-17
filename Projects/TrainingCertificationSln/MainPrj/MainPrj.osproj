@@ -175,6 +175,10 @@
       <SubType>Component</SubType>
       <Id>Automator-8D8E89E060304E6</Id>
     </Compile>
+    <Compile Include="Events\Main_E_IntMgr_InteractionActivated.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E93EC0618B26</Id>
+    </Compile>
     <Compile Include="Events\Main_E_IntMgr_InteractionClosed.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E886C9690BDF</Id>

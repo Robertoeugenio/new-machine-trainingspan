@@ -22,6 +22,7 @@ namespace MainPrj.Project
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
 			base.DesignComponentTypes.Add("MainPrj.CRM_E_GetCustInfo_ActivityStarted");
+			base.DesignComponentTypes.Add("MainPrj.Main_E_IntMgr_InteractionActivated");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_IntMgr_InteractionClosed");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_IntMgr_InteractionStarted");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_UpdateDisplay_ActivityStarted");

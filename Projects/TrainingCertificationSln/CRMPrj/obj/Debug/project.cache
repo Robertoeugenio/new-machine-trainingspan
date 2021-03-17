@@ -77,5 +77,6 @@
     <DesignComponent id="Automator-8D8E884D37F8321" className="CRM_E_CRMChild_Created" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E30F1807D26C" className="CRM_E_CRMfrmLogin_Created" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="GlobalContainer-8D8E7CA979738F7" className="_GC_CRM" type="GlobalContainer" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D8E93E1B4BE957" className="CRM_E_CRMChild_Activated" type="Automation" isPublic="True" screenShots="" />
   </DesignComponents>
 </Cache>

@@ -234,6 +234,10 @@
       <SubType>Component</SubType>
       <Id>Automator-8D8E89D29ADB8C1</Id>
     </Compile>
+    <Compile Include="Events\CRM_E_CRMChild_Activated.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E93E1B4BE957</Id>
+    </Compile>
     <Compile Include="Events\CRM_E_CRMChild_Closing.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E885DE61584A</Id>
