@@ -21,9 +21,12 @@ namespace MainPrj.Project
 			mName = "Default";
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
+			base.DesignComponentTypes.Add("MainPrj.CRM_E_GetCustInfo_ActivityStarted");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_IntMgr_InteractionClosed");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_IntMgr_InteractionStarted");
+			base.DesignComponentTypes.Add("MainPrj.Main_E_UpdateDisplay_ActivityStarted");
 			base.DesignComponentTypes.Add("MainPrj.frmCustInfo");
+			base.DesignComponentTypes.Add("MainPrj.Main_P_LoadCustInfoValues");
 			base.DesignComponentTypes.Add("MainPrj._GC_Main");
 		}
 	}

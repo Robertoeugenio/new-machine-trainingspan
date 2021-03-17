@@ -23,6 +23,7 @@ namespace CRMPrj.Project
 			mContextType = OpenSpan.Solution.ContextType.Local;
 			base.DesignComponentTypes.Add("CRMPrj.ACMESearch");
 			base.DesignComponentTypes.Add("CRMPrj.CRM");
+			base.DesignComponentTypes.Add("CRMPrj.CRM_E_IntMgr_InteractionStarted");
 			base.DesignComponentTypes.Add("CRMPrj.CRM_E_CRMChild_Closing");
 			base.DesignComponentTypes.Add("CRMPrj.CRM_E_CRMChild_Created");
 			base.DesignComponentTypes.Add("CRMPrj.CRM_E_CRMfrmLogin_Created");

@@ -95,11 +95,27 @@
 			When defining an activity, make sure that all the data required to perform the
 			activity is available through context values or the activity’s properties.
 			-->
-
+ 
 	<Activities>
+
+
+	    <Activity Name="GetCustomerInformation">
+			<Value Name="GetCustomerInformation" Type="String"/>
+		</Activity> 
+	    <Activity Name="Update Display">
+			<Value Name="Update Display" Type="String"/>
+		</Activity>
+
+
+
+		
 		<Activity Name="ValidateCaller">
 			<Value Name="CallerValid" Type="Boolean"/>
 		</Activity>
+		<Activity Name="ValidateCaller">
+			<Value Name="CallerValid" Type="Boolean"/>
+		</Activity>
+
 		<Activity Name="UnvalidateCaller">
 			<Value Name="CallerValid" Type="Boolean"/>
 		</Activity>

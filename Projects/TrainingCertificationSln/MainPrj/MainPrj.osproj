@@ -73,6 +73,14 @@
       <HintPath>C:\Program Files (x86)\Pegasystems\Pega Robot Studio\log4net.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="OpenSpan.Adapters, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Adapters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.ApplicationFramework, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenSpan.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Controls.dll</HintPath>
       <Private>False</Private>
@@ -83,6 +91,22 @@
     </Reference>
     <Reference Include="OpenSpan.Interactions.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Interactions.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.OCR, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.OCR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Recording, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Recording.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Script, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Script.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Security, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Security.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Pega.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
@@ -103,6 +127,10 @@
     </Reference>
     <Reference Include="Pega.SharedMemory.Interop, Version=10.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(PEGA_STUDIO_PATH)\Pega.SharedMemory.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Windows.Broker.Interop, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\Pega.Windows.Broker.Interop.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System">
@@ -143,6 +171,10 @@
     <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Events\CRM_E_GetCustInfo_ActivityStarted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E89E060304E6</Id>
+    </Compile>
     <Compile Include="Events\Main_E_IntMgr_InteractionClosed.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E886C9690BDF</Id>
@@ -150,6 +182,10 @@
     <Compile Include="Events\Main_E_IntMgr_InteractionStarted.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E7D49282165B</Id>
+    </Compile>
+    <Compile Include="Events\Main_E_UpdateDisplay_ActivityStarted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E92220880C0B</Id>
     </Compile>
     <Compile Include="frmCustInfo.os">
       <SubType>Component</SubType>
