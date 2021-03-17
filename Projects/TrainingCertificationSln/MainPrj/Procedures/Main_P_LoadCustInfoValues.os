@@ -3,12 +3,12 @@
     <Type Value="OpenSpan.Automation.Automator" />
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
-      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Interactions.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -327,8 +327,8 @@
             <LinkPoints>
               <Point value="834, 167" />
               <Point value="844, 167" />
-              <Point value="869, 167" />
-              <Point value="869, 402" />
+              <Point value="844, 167" />
+              <Point value="844, 402" />
               <Point value="895, 402" />
               <Point value="905, 402" />
             </LinkPoints>
@@ -339,8 +339,8 @@
             <LinkPoints>
               <Point value="834, 184" />
               <Point value="844, 184" />
-              <Point value="869, 184" />
-              <Point value="869, 482" />
+              <Point value="844, 184" />
+              <Point value="844, 482" />
               <Point value="895, 482" />
               <Point value="905, 482" />
             </LinkPoints>
@@ -361,6 +361,9 @@
         <Comments />
         <SubGraphs />
       </AutomationDocument>
+      <DocumentPosition Value="Binary">
+        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAASU1RAAAAAAL</Binary>
+      </DocumentPosition>
       <DocumentScale Value="0.6983373" />
       <ShowDesignCompNames Value="True" />
       <Content Name="DynamicMembers">
@@ -373,8 +376,8 @@
     </OpenSpan.Automation.Automator>
     <OpenSpan.Automation.EntryPoint Name="entryPoint1" Id="EntryPoint-8D8E8980B1A095D">
       <AliasName Value="Execute" />
-      <ComponentName Value="&lt;No Instance&gt;" />
-      <DisplayName Value="" />
+      <ComponentName Value="Execute" />
+      <DisplayName Value="Execute" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Automation.EntryPoint" />
       <InstanceUniqueId Value="Automator-8D8E8980668067B\EntryPoint-8D8E8980B1A095D" />

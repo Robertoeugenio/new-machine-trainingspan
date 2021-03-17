@@ -43,4 +43,3 @@ C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\P
 C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\obj\Debug\CRM.screenshots.resx
 C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\obj\Debug\CRMPrj.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\obj\Debug\CRMPrj.pdb
-C:\Users\Roberto\Documents\TrainingAutomation-master\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\obj\Debug\CRMPrj.osprojResolveAssemblyReference.cache

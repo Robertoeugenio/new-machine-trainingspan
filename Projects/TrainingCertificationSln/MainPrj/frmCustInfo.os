@@ -53,39 +53,39 @@
           </System.Windows.Forms.GroupBox>
           <System.Windows.Forms.ComboBox Name="MaincmbGetAcct" Id="ComboBox-8D8E7C192C47F16">
             <FormattingEnabled Value="True" />
-            <Location Value="159, 60" />
+            <Location Value="159, 54" />
             <MaxDropDownItems Value="100" />
             <Size Value="140, 21" />
             <Sorted Value="True" />
             <TabIndex Value="14" />
           </System.Windows.Forms.ComboBox>
           <System.Windows.Forms.TextBox Name="MaintxtZip" Id="TextBox-8D8E7C185B33A6A">
-            <Location Value="159, 164" />
+            <Location Value="159, 198" />
             <Size Value="140, 20" />
             <TabIndex Value="13" />
           </System.Windows.Forms.TextBox>
           <System.Windows.Forms.TextBox Name="MaintxtState" Id="TextBox-8D8E7C1838AACA1">
-            <Location Value="159, 138" />
+            <Location Value="159, 169" />
             <Size Value="140, 20" />
             <TabIndex Value="12" />
           </System.Windows.Forms.TextBox>
           <System.Windows.Forms.TextBox Name="MaintxtCity" Id="TextBox-8D8E7C180C31458">
-            <Location Value="159, 112" />
+            <Location Value="159, 142" />
             <Size Value="140, 20" />
             <TabIndex Value="11" />
           </System.Windows.Forms.TextBox>
           <System.Windows.Forms.TextBox Name="MaintxtAddress" Id="TextBox-8D8E7C179673F96">
-            <Location Value="159, 87" />
+            <Location Value="159, 112" />
             <Size Value="140, 20" />
             <TabIndex Value="10" />
           </System.Windows.Forms.TextBox>
           <System.Windows.Forms.TextBox Name="MaintxtName" Id="TextBox-8D8E7C176FF01B7">
-            <Location Value="159, 194" />
+            <Location Value="159, 84" />
             <Size Value="140, 20" />
             <TabIndex Value="9" />
           </System.Windows.Forms.TextBox>
           <System.Windows.Forms.TextBox Name="MaintxtCurrentAcct" Id="TextBox-8D8E7C16D9B9731">
-            <Location Value="159, 34" />
+            <Location Value="159, 27" />
             <Size Value="140, 20" />
             <TabIndex Value="8" />
             <Text Value="--------" />

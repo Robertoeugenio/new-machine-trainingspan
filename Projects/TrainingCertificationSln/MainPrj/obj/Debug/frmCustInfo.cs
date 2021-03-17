@@ -161,7 +161,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		// MaincmbGetAcct
 		// 
 		this.MaincmbGetAcct.FormattingEnabled = true;
-		this.MaincmbGetAcct.Location = new System.Drawing.Point(159, 60);
+		this.MaincmbGetAcct.Location = new System.Drawing.Point(159, 54);
 		this.MaincmbGetAcct.MaxDropDownItems = 100;
 		this.MaincmbGetAcct.Name = "MaincmbGetAcct";
 		this.MaincmbGetAcct.Size = new System.Drawing.Size(140, 21);
@@ -170,42 +170,42 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		// 
 		// MaintxtZip
 		// 
-		this.MaintxtZip.Location = new System.Drawing.Point(159, 164);
+		this.MaintxtZip.Location = new System.Drawing.Point(159, 198);
 		this.MaintxtZip.Name = "MaintxtZip";
 		this.MaintxtZip.Size = new System.Drawing.Size(140, 20);
 		this.MaintxtZip.TabIndex = 13;
 		// 
 		// MaintxtState
 		// 
-		this.MaintxtState.Location = new System.Drawing.Point(159, 138);
+		this.MaintxtState.Location = new System.Drawing.Point(159, 169);
 		this.MaintxtState.Name = "MaintxtState";
 		this.MaintxtState.Size = new System.Drawing.Size(140, 20);
 		this.MaintxtState.TabIndex = 12;
 		// 
 		// MaintxtCity
 		// 
-		this.MaintxtCity.Location = new System.Drawing.Point(159, 112);
+		this.MaintxtCity.Location = new System.Drawing.Point(159, 142);
 		this.MaintxtCity.Name = "MaintxtCity";
 		this.MaintxtCity.Size = new System.Drawing.Size(140, 20);
 		this.MaintxtCity.TabIndex = 11;
 		// 
 		// MaintxtAddress
 		// 
-		this.MaintxtAddress.Location = new System.Drawing.Point(159, 87);
+		this.MaintxtAddress.Location = new System.Drawing.Point(159, 112);
 		this.MaintxtAddress.Name = "MaintxtAddress";
 		this.MaintxtAddress.Size = new System.Drawing.Size(140, 20);
 		this.MaintxtAddress.TabIndex = 10;
 		// 
 		// MaintxtName
 		// 
-		this.MaintxtName.Location = new System.Drawing.Point(159, 194);
+		this.MaintxtName.Location = new System.Drawing.Point(159, 84);
 		this.MaintxtName.Name = "MaintxtName";
 		this.MaintxtName.Size = new System.Drawing.Size(140, 20);
 		this.MaintxtName.TabIndex = 9;
 		// 
 		// MaintxtCurrentAcct
 		// 
-		this.MaintxtCurrentAcct.Location = new System.Drawing.Point(159, 34);
+		this.MaintxtCurrentAcct.Location = new System.Drawing.Point(159, 27);
 		this.MaintxtCurrentAcct.Name = "MaintxtCurrentAcct";
 		this.MaintxtCurrentAcct.Size = new System.Drawing.Size(140, 20);
 		this.MaintxtCurrentAcct.TabIndex = 8;
@@ -446,7 +446,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		System.Windows.Forms.ComboBox MaincmbGetAcct = new System.Windows.Forms.ComboBox();
 		this.SetId(MaincmbGetAcct, new OpenSpan.Design.ComponentIdentity("ComboBox-8D8E7C192C47F16"));
 		MaincmbGetAcct.FormattingEnabled = true;
-		MaincmbGetAcct.Location = new System.Drawing.Point(159, 60);
+		MaincmbGetAcct.Location = new System.Drawing.Point(159, 54);
 		MaincmbGetAcct.MaxDropDownItems = 100;
 		MaincmbGetAcct.Name = "MaincmbGetAcct";
 		MaincmbGetAcct.Size = new System.Drawing.Size(140, 21);
@@ -463,7 +463,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.TextBox MaintxtZip = new System.Windows.Forms.TextBox();
 		this.SetId(MaintxtZip, new OpenSpan.Design.ComponentIdentity("TextBox-8D8E7C185B33A6A"));
-		MaintxtZip.Location = new System.Drawing.Point(159, 164);
+		MaintxtZip.Location = new System.Drawing.Point(159, 198);
 		MaintxtZip.Name = "MaintxtZip";
 		MaintxtZip.Size = new System.Drawing.Size(140, 20);
 		MaintxtZip.TabIndex = 13;
@@ -478,7 +478,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.TextBox MaintxtState = new System.Windows.Forms.TextBox();
 		this.SetId(MaintxtState, new OpenSpan.Design.ComponentIdentity("TextBox-8D8E7C1838AACA1"));
-		MaintxtState.Location = new System.Drawing.Point(159, 138);
+		MaintxtState.Location = new System.Drawing.Point(159, 169);
 		MaintxtState.Name = "MaintxtState";
 		MaintxtState.Size = new System.Drawing.Size(140, 20);
 		MaintxtState.TabIndex = 12;
@@ -493,7 +493,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.TextBox MaintxtCity = new System.Windows.Forms.TextBox();
 		this.SetId(MaintxtCity, new OpenSpan.Design.ComponentIdentity("TextBox-8D8E7C180C31458"));
-		MaintxtCity.Location = new System.Drawing.Point(159, 112);
+		MaintxtCity.Location = new System.Drawing.Point(159, 142);
 		MaintxtCity.Name = "MaintxtCity";
 		MaintxtCity.Size = new System.Drawing.Size(140, 20);
 		MaintxtCity.TabIndex = 11;
@@ -508,7 +508,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.TextBox MaintxtAddress = new System.Windows.Forms.TextBox();
 		this.SetId(MaintxtAddress, new OpenSpan.Design.ComponentIdentity("TextBox-8D8E7C179673F96"));
-		MaintxtAddress.Location = new System.Drawing.Point(159, 87);
+		MaintxtAddress.Location = new System.Drawing.Point(159, 112);
 		MaintxtAddress.Name = "MaintxtAddress";
 		MaintxtAddress.Size = new System.Drawing.Size(140, 20);
 		MaintxtAddress.TabIndex = 10;
@@ -523,7 +523,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.TextBox MaintxtName = new System.Windows.Forms.TextBox();
 		this.SetId(MaintxtName, new OpenSpan.Design.ComponentIdentity("TextBox-8D8E7C176FF01B7"));
-		MaintxtName.Location = new System.Drawing.Point(159, 194);
+		MaintxtName.Location = new System.Drawing.Point(159, 84);
 		MaintxtName.Name = "MaintxtName";
 		MaintxtName.Size = new System.Drawing.Size(140, 20);
 		MaintxtName.TabIndex = 9;
@@ -538,7 +538,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.TextBox MaintxtCurrentAcct = new System.Windows.Forms.TextBox();
 		this.SetId(MaintxtCurrentAcct, new OpenSpan.Design.ComponentIdentity("TextBox-8D8E7C16D9B9731"));
-		MaintxtCurrentAcct.Location = new System.Drawing.Point(159, 34);
+		MaintxtCurrentAcct.Location = new System.Drawing.Point(159, 27);
 		MaintxtCurrentAcct.Name = "MaintxtCurrentAcct";
 		MaintxtCurrentAcct.Size = new System.Drawing.Size(140, 20);
 		MaintxtCurrentAcct.TabIndex = 8;
